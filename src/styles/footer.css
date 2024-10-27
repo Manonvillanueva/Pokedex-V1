@@ -1,0 +1,37 @@
+.footer-pokedex {
+  height: 179px;
+  display: flex;
+}
+
+.violet {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  width: 75%;
+  background: #2743fdec;
+  border-radius: 0 0 0 1px;
+  box-shadow: 0 0.5rem 1rem 0 rgba(22, 75, 195, 0.5) inset,
+    0 -0.25rem 1.5rem #11239dec inset,
+    0 0.5rem 0.5rem rgba(255, 255, 255, 0.4) inset,
+    0 0.25rem 0.5rem 0 rgb(75, 70, 207) inset;
+}
+
+.violet button {
+  background: none;
+  border: none;
+  color: white;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  cursor: pointer;
+  transition: 0.4s ease;
+}
+
+.violet button img {
+  height: 50px;
+  padding-bottom: 5px;
+}
+
+.violet button:hover {
+  scale: 1.1;
+}
