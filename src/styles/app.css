@@ -3,6 +3,8 @@
   --white: rgb(250, 241, 241);
   --violet1: #7d8bf3c5;
   --violet2: rgb(133, 157, 254);
+  --violet3: #4c71fd;
+  --blue: #2743fdec;
 }
 
 * {
@@ -41,4 +43,7 @@ body {
   background: linear-gradient(#7d8bf3 15%, #4a71f3, #3c67f3, #4a71f3, #7d8bf3);
   border-top: 2px solid rgb(26, 26, 26);
   border-bottom: 2px solid rgb(26, 26, 26);
+  overflow-y: scroll;
+  scrollbar-color: var(--blue) transparent;
+  scrollbar-width: thin;
 }

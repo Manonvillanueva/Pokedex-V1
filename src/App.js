@@ -7,8 +7,17 @@ import Header from "./Components/Header";
 import Footer from "./Components/Footer";
 import Detail from "./Pages/Detail";
 import "./styles/app.css";
+import { useEffect, useState } from "react";
+import axios from "axios";
 
 function App() {
+  const [dataPoke, setDataPoke] = useState([]);
+  useEffect(() => {
+    axios
+      .get("https://pokebuildapi.fr/api/v1/pokemon/generation/1")
+      .then((data) => setDataPoke(data.data));
+  }, []);
+
   return (
     <Router>
       <div className="pokedex-container">
@@ -16,7 +25,7 @@ function App() {
         <div className="main-container">
           <Routes>
             <Route path="/" element={<Accueil />} />
-            <Route path="/list" element={<PokeList />} />
+            <Route path="/list" element={<PokeList dataPoke={dataPoke} />} />
             <Route path="/favorites" element={<Fav />} />
             <Route path="/pokemon/:id" element={<Detail />} />
             <Route path="*" element={<Accueil />} />

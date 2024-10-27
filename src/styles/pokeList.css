@@ -1,0 +1,38 @@
+.pokeList-container {
+  padding: 10px;
+}
+
+.pokeList-nav {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 20px;
+  padding-bottom: 20px;
+}
+
+.searchBar {
+  padding: 5px 10px;
+}
+
+.ul-pokeList {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+}
+
+.li-pokeList {
+  background: rgba(255, 255, 255, 0.766);
+  border-radius: 10px;
+  height: 150px;
+  width: 150px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.name-pokeList {
+  font-size: 10px;
+}
