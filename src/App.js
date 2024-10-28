@@ -24,10 +24,14 @@ function App() {
         <Header />
         <div className="main-container">
           <Routes>
-            <Route path="/" element={<Accueil />} />
+            <Route path="/" element={<Accueil dataPoke={dataPoke} />} />
             <Route path="/list" element={<PokeList dataPoke={dataPoke} />} />
             <Route path="/favorites" element={<Fav />} />
-            <Route path="/pokemon/:id" element={<Detail />} />
+            <Route
+              path="/pokemon/:id"
+              element={<Detail />}
+              dataPoke={dataPoke}
+            />
             <Route path="*" element={<Accueil />} />
           </Routes>
         </div>

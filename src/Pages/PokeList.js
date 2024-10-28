@@ -4,6 +4,7 @@ import "../styles/pokeList.css";
 const PokeList = ({ dataPoke }) => {
   const [searchPoke, setSearchPoke] = useState("");
   const [sortPokemon, setSortPokemon] = useState("");
+
   return (
     <div className="pokeList-container">
       <div className="pokeList-nav">
@@ -36,7 +37,7 @@ const PokeList = ({ dataPoke }) => {
             } else if (sortPokemon === "zToA") {
               return b.name.localeCompare(a.name);
             }
-            return null;
+            return 0;
           })
           .map((pokemon) => {
             return (
