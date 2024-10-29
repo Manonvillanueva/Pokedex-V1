@@ -32,15 +32,6 @@ h3 {
   align-items: center;
 }
 
-h3 img {
-  margin-left: 5px;
-}
-
-h3 img:hover {
-  scale: 1.1;
-  cursor: pointer;
-}
-
 .absolute {
   width: 300px;
   position: relative;

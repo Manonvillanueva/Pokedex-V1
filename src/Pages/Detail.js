@@ -5,7 +5,7 @@ import desc from "../json/description.json";
 import ProgressBar from "react-bootstrap/ProgressBar";
 import "bootstrap/dist/css/bootstrap.min.css";
 import arrow from "../img/arrow.png";
-import star from "../img/star.png";
+import Star from "../Components/Star";
 
 const Detail = ({ dataPoke }) => {
   const navigate = useNavigate();
@@ -30,7 +30,7 @@ const Detail = ({ dataPoke }) => {
       <div className="center-detail">
         <h3>
           {foundPokemon.name}
-          <img src={star} alt="étoile" />
+          <Star foundPokemon={foundPokemon} />
         </h3>
         <div className="absolute">
           <img
