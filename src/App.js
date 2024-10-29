@@ -29,8 +29,7 @@ function App() {
             <Route path="/favorites" element={<Fav />} />
             <Route
               path="/pokemon/:id"
-              element={<Detail />}
-              dataPoke={dataPoke}
+              element={<Detail dataPoke={dataPoke} />}
             />
             <Route path="*" element={<Accueil />} />
           </Routes>

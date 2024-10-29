@@ -1,5 +1,6 @@
 import React, { useState } from "react";
 import "../styles/pokeList.css";
+import { NavLink } from "react-router-dom";
 
 const PokeList = ({ dataPoke }) => {
   const [searchPoke, setSearchPoke] = useState("");
@@ -41,15 +42,21 @@ const PokeList = ({ dataPoke }) => {
           })
           .map((pokemon) => {
             return (
-              <li className="li-pokeList" key={pokemon.id}>
-                <img
-                  className="img-pokeList"
-                  src={pokemon.sprite}
-                  alt={pokemon.name}
-                />
-                <span className="id-pokeList">{pokemon.id}</span>
-                <p className="name-pokeList">{pokemon.name}</p>
-              </li>
+              <NavLink
+                key={pokemon.id}
+                className="navlink"
+                to={`/pokemon/${pokemon.id}`}
+              >
+                <li className="li-pokeList">
+                  <img
+                    className="img-pokeList"
+                    src={pokemon.sprite}
+                    alt={pokemon.name}
+                  />
+                  <span className="id-pokeList">{pokemon.id}</span>
+                  <p className="name-pokeList">{pokemon.name}</p>
+                </li>
+              </NavLink>
             );
           })}
       </ul>

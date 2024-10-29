@@ -9,19 +9,19 @@ const Footer = () => {
   return (
     <div className="footer-pokedex">
       <div className="violet">
-        <NavLink to="/">
+        <NavLink className="footer-navlink" to="/">
           <button>
             <img src={houseImg} alt="logo maison" />
             Accueil
           </button>
         </NavLink>
-        <NavLink to="list">
+        <NavLink className="footer-navlink" to="list">
           <button>
             <img src={pokeballImg} alt="logo pokeball" />
             PokéList
           </button>
         </NavLink>
-        <NavLink to="favorites">
+        <NavLink className="footer-navlink" to="favorites">
           <button>
             <img src={starImg} alt="logo étoiles" />
             Mes Fav'

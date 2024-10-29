@@ -16,6 +16,16 @@
     0 0.25rem 0.5rem 0 rgb(75, 70, 207) inset;
 }
 
+.footer-navlink {
+  text-decoration: none;
+  cursor: pointer;
+  transition: 0.4s ease;
+}
+
+.footer-navlink:hover {
+  scale: 1.1;
+}
+
 .violet button {
   background: none;
   border: none;
@@ -23,19 +33,9 @@
   display: flex;
   flex-direction: column;
   align-items: center;
-  cursor: pointer;
-  transition: 0.4s ease;
 }
 
 .violet button img {
   height: 50px;
   padding-bottom: 5px;
-}
-
-.violet button:hover {
-  scale: 1.1;
-}
-
-a {
-  text-decoration: none;
 }

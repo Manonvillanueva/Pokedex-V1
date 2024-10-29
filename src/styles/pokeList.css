@@ -14,6 +14,15 @@
   padding: 5px 10px;
 }
 
+.navlink {
+  text-decoration: none;
+  transition: 0.3s ease-in-out;
+}
+
+.navlink:hover {
+  scale: 1.05;
+}
+
 .ul-pokeList {
   display: flex;
   flex-wrap: wrap;

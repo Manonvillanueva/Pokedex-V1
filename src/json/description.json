@@ -1,0 +1,757 @@
+[
+  {
+    "id": 1,
+    "name": "Bulbizarre",
+    "description": "Un Pokémon plante qui a la capacité unique de faire pousser des plantes sur son dos, symbolisant l'harmonie avec la nature."
+  },
+  {
+    "id": 2,
+    "name": "Herbizarre",
+    "description": "Évolution de Bulbizarre, il peut libérer des pollens puissants, permettant de contrôler la croissance des plantes autour de lui."
+  },
+  {
+    "id": 3,
+    "name": "Florizarre",
+    "description": "L'évolution finale, connu pour sa capacité à manipuler la flore à une échelle massive et à utiliser des attaques puissantes."
+  },
+  {
+    "id": 4,
+    "name": "Salamèche",
+    "description": "Un Pokémon de feu dont la queue s'enflamme selon son humeur, représentant sa force intérieure."
+  },
+  {
+    "id": 5,
+    "name": "Reptincel",
+    "description": "Évolution de Salamèche, il développe des flammes plus puissantes, capable de réguler la chaleur de son corps."
+  },
+  {
+    "id": 6,
+    "name": "Dracaufeu",
+    "description": "L'évolution finale, un puissant dragon cracheur de feu, symbole de force et de détermination."
+  },
+  {
+    "id": 7,
+    "name": "Carapuce",
+    "description": "Un Pokémon aquatique qui utilise sa carapace pour se protéger, capable de tirer des jets d'eau."
+  },
+  {
+    "id": 8,
+    "name": "Carabaffe",
+    "description": "Évolution de Carapuce, il maîtrise l'art de l'hydro-pulsion, lui permettant de se déplacer rapidement dans l'eau."
+  },
+  {
+    "id": 9,
+    "name": "Tortank",
+    "description": "L'évolution finale, un puissant Pokémon capable de libérer des torrents d'eau dévastateurs."
+  },
+  {
+    "id": 10,
+    "name": "Chenipan",
+    "description": "Un Pokémon insecte qui se transforme en un magnifique papillon, illustrant le changement et l'évolution."
+  },
+  {
+    "id": 11,
+    "name": "Chrysacier",
+    "description": "Évolution de Chenipan, il tisse un cocon pour se préparer à sa transformation finale."
+  },
+  {
+    "id": 12,
+    "name": "Papilusion",
+    "description": "L'évolution finale, connu pour sa beauté et sa capacité à influencer le climat."
+  },
+  {
+    "id": 13,
+    "name": "Aspicot",
+    "description": "Un Pokémon insecte qui se camoufle parfaitement dans son environnement, devenant un prédateur redoutable."
+  },
+  {
+    "id": 14,
+    "name": "Coconfort",
+    "description": "Évolution d'Aspicot, il se protège avec une carapace solide tout en se préparant à évoluer."
+  },
+  {
+    "id": 15,
+    "name": "Dardargnan",
+    "description": "L'évolution finale, un Pokémon redouté pour sa vitesse et son venin puissant."
+  },
+  {
+    "id": 16,
+    "name": "Roucool",
+    "description": "Un oiseau Pokémon qui a un fort sens de l'orientation, capable de trouver son chemin à travers les tempêtes."
+  },
+  {
+    "id": 17,
+    "name": "Roucoups",
+    "description": "Évolution de Roucool, connu pour sa capacité à repérer les dangers de loin."
+  },
+  {
+    "id": 18,
+    "name": "Roucarnage",
+    "description": "L'évolution finale, un prédateur majestueux capable d'attaques aériennes dévastatrices."
+  },
+  {
+    "id": 19,
+    "name": "Rattata",
+    "description": "Un Pokémon rusé qui s'adapte facilement à son environnement, il est souvent sous-estimé."
+  },
+  {
+    "id": 20,
+    "name": "Rattatac",
+    "description": "Évolution de Rattata, il utilise sa vitesse et son intelligence pour dominer ses adversaires."
+  },
+  {
+    "id": 21,
+    "name": "Piafabec",
+    "description": "Un Pokémon oiseau connu pour sa personnalité vive et sa capacité à trouver des trésors."
+  },
+  {
+    "id": 22,
+    "name": "Rapasdepic",
+    "description": "Évolution de Piafabec, il devient un chasseur redoutable avec une grande agilité."
+  },
+  {
+    "id": 23,
+    "name": "Abo",
+    "description": "Un Pokémon serpent qui utilise son corps flexible pour se faufiler dans les endroits étroits."
+  },
+  {
+    "id": 24,
+    "name": "Arbok",
+    "description": "L'évolution d'Abo, il est capable d'effrayer ses ennemis avec un regard hypnotique."
+  },
+  {
+    "id": 25,
+    "name": "Pikachu",
+    "description": "Le Pokémon emblématique de la franchise, connu pour sa capacité à produire des décharges électriques."
+  },
+  {
+    "id": 26,
+    "name": "Raichu",
+    "description": "Évolution de Pikachu, il possède une énergie électrique plus puissante et une plus grande agilité."
+  },
+  {
+    "id": 27,
+    "name": "Sabelette",
+    "description": "Un Pokémon rongeur qui est très résistant et capable de se camoufler dans le sable."
+  },
+  {
+    "id": 28,
+    "name": "Sablaireau",
+    "description": "L'évolution finale, il peut creuser des tunnels profonds tout en étant rapide sur la surface."
+  },
+  {
+    "id": 29,
+    "name": "Nidoran♀",
+    "description": "Un Pokémon avec une défense naturelle forte et capable de se battre avec grâce."
+  },
+  {
+    "id": 30,
+    "name": "Nidorina",
+    "description": "Évolution de Nidoran♀, elle développe des capacités offensives plus puissantes."
+  },
+  {
+    "id": 31,
+    "name": "Nidoqueen",
+    "description": "L'évolution finale, un puissant Pokémon qui peut contrôler des attaques de type Poison."
+  },
+  {
+    "id": 32,
+    "name": "Nidoran♂",
+    "description": "Un Pokémon connu pour sa grande agilité et son aptitude au combat."
+  },
+  {
+    "id": 33,
+    "name": "Nidorino",
+    "description": "Évolution de Nidoran♂, il est plus agressif et sait mieux se défendre."
+  },
+  {
+    "id": 34,
+    "name": "Nidoking",
+    "description": "L'évolution finale, un Pokémon puissant qui utilise sa force brute et ses attaques de type Poison."
+  },
+  {
+    "id": 35,
+    "name": "Mélofée",
+    "description": "Un Pokémon mignon qui a la capacité de charmer ses adversaires et de les apaiser."
+  },
+  {
+    "id": 36,
+    "name": "Mélodelfe",
+    "description": "Évolution de Mélofée, elle peut créer des mélodies apaisantes qui influencent les émotions."
+  },
+  {
+    "id": 37,
+    "name": "Goupix",
+    "description": "Un adorable Pokémon de feu, connu pour son pelage flamboyant et sa loyauté."
+  },
+  {
+    "id": 38,
+    "name": "Feunard",
+    "description": "L'évolution de Goupix, elle maîtrise des techniques de feu puissantes et envoûtantes."
+  },
+  {
+    "id": 39,
+    "name": "Rondoudou",
+    "description": "Un Pokémon qui utilise sa voix mélodieuse pour endormir ses ennemis."
+  },
+  {
+    "id": 40,
+    "name": "Grodoudou",
+    "description": "Évolution de Rondoudou, elle possède une voix puissante capable de charmer des foules."
+  },
+  {
+    "id": 41,
+    "name": "Nosferapti",
+    "description": "Un Pokémon nocturne qui utilise son sonar pour naviguer dans l'obscurité."
+  },
+  {
+    "id": 42,
+    "name": "Nosferalto",
+    "description": "Évolution de Nosferapti, il devient un chasseur redouté la nuit."
+  },
+  {
+    "id": 43,
+    "name": "Mystherbe",
+    "description": "Un Pokémon plante capable de créer des illusions pour tromper ses adversaires."
+  },
+  {
+    "id": 44,
+    "name": "Ortide",
+    "description": "Évolution de Mystherbe, il est connu pour sa capacité à contrôler les plantes environnantes."
+  },
+  {
+    "id": 45,
+    "name": "Rafflesia",
+    "description": "L'évolution finale, un Pokémon qui peut libérer des spores toxiques pour se défendre."
+  },
+  {
+    "id": 46,
+    "name": "Paras",
+    "description": "Un Pokémon insecte/fongique qui se fond dans son environnement pour échapper aux prédateurs."
+  },
+  {
+    "id": 47,
+    "name": "Parasect",
+    "description": "Évolution de Paras, il contrôle ses champignons et peut utiliser leurs capacités pour attaquer."
+  },
+  {
+    "id": 48,
+    "name": "Mimitoss",
+    "description": "Un Pokémon insecte qui peut se camoufler parfaitement, idéal pour surprendre ses ennemis."
+  },
+  {
+    "id": 49,
+    "name": "Aéromite",
+    "description": "Un Pokémon qui vole à grande altitude, capable de détecter les tempêtes."
+  },
+  {
+    "id": 50,
+    "name": "Taupiqueur",
+    "description": "Un Pokémon de type sol qui creuse des tunnels avec une grande efficacité."
+  },
+  {
+    "id": 51,
+    "name": "Triopikeur",
+    "description": "L'évolution de Taupiqueur, il peut créer des tunnels souterrains très complexes."
+  },
+  {
+    "id": 52,
+    "name": "Miaouss",
+    "description": "Un Pokémon à l'allure de chat, rusé et capable de voler des objets."
+  },
+  {
+    "id": 53,
+    "name": "Persian",
+    "description": "L'évolution de Miaouss, il est élégant et rapide, un chasseur redoutable."
+  },
+  {
+    "id": 54,
+    "name": "Psykokwak",
+    "description": "Un Pokémon aquatique qui souffre de maux de tête, mais a un potentiel caché."
+  },
+  {
+    "id": 55,
+    "name": "Akwakwak",
+    "description": "Évolution de Psykokwak, il utilise son pouvoir psychique pour contrôler l'eau."
+  },
+  {
+    "id": 56,
+    "name": "Férosinge",
+    "description": "Un Pokémon de type combat qui est connu pour sa force brute et son agilité."
+  },
+  {
+    "id": 57,
+    "name": "Colossinge",
+    "description": "L'évolution finale, il utilise des attaques puissantes et a une grande endurance."
+  },
+  {
+    "id": 58,
+    "name": "Caninos",
+    "description": "Un adorable Pokémon de feu qui est très loyal et protecteur."
+  },
+  {
+    "id": 59,
+    "name": "Arcanin",
+    "description": "L'évolution de Caninos, un Pokémon légendaire connu pour sa vitesse incroyable."
+  },
+  {
+    "id": 60,
+    "name": "Ptitard",
+    "description": "Un Pokémon aquatique, il a un potentiel énorme en évoluant."
+  },
+  {
+    "id": 61,
+    "name": "Têtarte",
+    "description": "Évolution de Ptitard, il est capable de nager plus rapidement et de combattre."
+  },
+  {
+    "id": 62,
+    "name": "Tartard",
+    "description": "L'évolution finale, il est connu pour sa force brute et sa grande puissance."
+  },
+  {
+    "id": 63,
+    "name": "Abra",
+    "description": "Un Pokémon psychique capable de téléporter en un clin d'œil, il est très difficile à attraper."
+  },
+  {
+    "id": 64,
+    "name": "Kadabra",
+    "description": "Évolution d'Abra, il possède des capacités psychiques plus puissantes."
+  },
+  {
+    "id": 65,
+    "name": "Alakazam",
+    "description": "L'évolution finale, connu pour son intelligence et sa vitesse d'attaque exceptionnelle."
+  },
+  {
+    "id": 66,
+    "name": "Machoc",
+    "description": "Un Pokémon de combat qui se concentre sur le développement de sa force physique."
+  },
+  {
+    "id": 67,
+    "name": "Machopeur",
+    "description": "Évolution de Machoc, il devient plus fort et utilise des techniques de combat avancées."
+  },
+  {
+    "id": 68,
+    "name": "Mackogneur",
+    "description": "L'évolution finale, connu pour sa force brute et sa capacité à maîtriser plusieurs techniques."
+  },
+  {
+    "id": 69,
+    "name": "Chétiflor",
+    "description": "Un Pokémon plante qui se cache dans l'ombre, préférant les endroits sombres."
+  },
+  {
+    "id": 70,
+    "name": "Boustiflor",
+    "description": "Évolution de Chétiflor, il devient plus fort et peut utiliser des attaques de type plante."
+  },
+  {
+    "id": 71,
+    "name": "Empiflor",
+    "description": "L'évolution finale, connu pour ses attaques dévastatrices et sa beauté florale."
+  },
+  {
+    "id": 72,
+    "name": "Tentacool",
+    "description": "Un Pokémon aquatique qui peut immobiliser ses ennemis avec ses tentacules."
+  },
+  {
+    "id": 73,
+    "name": "Tentacruel",
+    "description": "Évolution de Tentacool, il devient un prédateur sous-marin redouté."
+  },
+  {
+    "id": 74,
+    "name": "Racaillou",
+    "description": "Un Pokémon rocheux capable de se camoufler dans son environnement."
+  },
+  {
+    "id": 75,
+    "name": "Gravalanch",
+    "description": "Évolution de Racaillou, il utilise son poids pour écraser ses ennemis."
+  },
+  {
+    "id": 76,
+    "name": "Grolem",
+    "description": "L'évolution finale, un Pokémon robuste capable de résister aux attaques les plus puissantes."
+  },
+  {
+    "id": 77,
+    "name": "Ponyta",
+    "description": "Un Pokémon de feu rapide et élégant, symbole de la beauté et de la vitesse."
+  },
+  {
+    "id": 78,
+    "name": "Galopa",
+    "description": "L'évolution finale, connu pour sa rapidité légendaire et son élégance."
+  },
+  {
+    "id": 79,
+    "name": "Ramoloss",
+    "description": "Un Pokémon aquatique qui semble paresseux mais qui cache une grande force."
+  },
+  {
+    "id": 80,
+    "name": "Flagadoss",
+    "description": "Évolution de Ramoloss, il utilise son intelligence pour contrôler l'eau autour de lui."
+  },
+  {
+    "id": 81,
+    "name": "Magnéti",
+    "description": "Un Pokémon magnétique capable d'attirer des objets métalliques."
+  },
+  {
+    "id": 82,
+    "name": "Magnéton",
+    "description": "Évolution de Magnéti, il crée des champs magnétiques puissants."
+  },
+  {
+    "id": 83,
+    "name": "Canarticho",
+    "description": "Un Pokémon oiseau qui utilise son bec pour se défendre et attaquer."
+  },
+  {
+    "id": 84,
+    "name": "Doduo",
+    "description": "Un Pokémon à deux têtes qui est extrêmement rapide, idéal pour la course."
+  },
+  {
+    "id": 85,
+    "name": "Dodrio",
+    "description": "Évolution de Doduo, il est encore plus rapide et peut utiliser des attaques de type vol."
+  },
+  {
+    "id": 86,
+    "name": "Otaria",
+    "description": "Un Pokémon marin connu pour sa nature amicale et sa grande agilité."
+  },
+  {
+    "id": 87,
+    "name": "Lamantine",
+    "description": "Évolution d'Otaria, il est puissant et protecteur envers ses compagnons."
+  },
+  {
+    "id": 88,
+    "name": "Tadmorv",
+    "description": "Un Pokémon qui se nourrit de déchets, symbolisant la régénération et le recyclage."
+  },
+  {
+    "id": 89,
+    "name": "Grotadmorv",
+    "description": "L'évolution finale, un Pokémon qui peut se transformer en une masse toxique."
+  },
+  {
+    "id": 90,
+    "name": "Kokiyas",
+    "description": "Un Pokémon aquatique qui utilise sa coquille comme défense."
+  },
+  {
+    "id": 91,
+    "name": "Crustabri",
+    "description": "Évolution de Kokiyas, connu pour sa force et sa grande résistance."
+  },
+  {
+    "id": 92,
+    "name": "Fantominus",
+    "description": "Un Pokémon fantomatique qui peut effrayer ses ennemis avec son apparence."
+  },
+  {
+    "id": 93,
+    "name": "Spectrum",
+    "description": "Évolution de Fantominus, il utilise des attaques de type spectre puissantes."
+  },
+  {
+    "id": 94,
+    "name": "Ectoplasma",
+    "description": "L'évolution finale, un Pokémon légendaire capable de contrôler les esprits."
+  },
+  {
+    "id": 95,
+    "name": "Onix",
+    "description": "Un Pokémon rocheux capable de creuser des tunnels à grande vitesse."
+  },
+  {
+    "id": 96,
+    "name": "Soporifik",
+    "description": "Un Pokémon qui utilise ses capacités psychiques pour endormir ses ennemis."
+  },
+  {
+    "id": 97,
+    "name": "Hypnomade",
+    "description": "Évolution de Soporifik, il peut contrôler les rêves et manipuler l'esprit."
+  },
+  {
+    "id": 98,
+    "name": "Krabby",
+    "description": "Un Pokémon crabe qui utilise ses pinces pour se défendre."
+  },
+  {
+    "id": 99,
+    "name": "Krabboss",
+    "description": "L'évolution finale, il devient un puissant combattant sur la plage."
+  },
+  {
+    "id": 100,
+    "name": "Voltorbe",
+    "description": "Un Pokémon électrique qui ressemble à une boule, connu pour son énergie explosive."
+  },
+  {
+    "id": 101,
+    "name": "Électrode",
+    "description": "L'évolution de Voltorbe, capable de créer des explosions d'énergie électrique."
+  },
+  {
+    "id": 102,
+    "name": "Noeunoeuf",
+    "description": "Un Pokémon plante qui se déplace en roulant, symbole d'agilité."
+  },
+  {
+    "id": 103,
+    "name": "Noadkoko",
+    "description": "L'évolution finale, un Pokémon d'une grande résistance avec plusieurs têtes."
+  },
+  {
+    "id": 104,
+    "name": "Osselait",
+    "description": "Un Pokémon qui évolue en utilisant des os comme arme."
+  },
+  {
+    "id": 105,
+    "name": "Ossatueur",
+    "description": "L'évolution d'Osselait, il est robuste et capable d'attaques puissantes."
+  },
+  {
+    "id": 106,
+    "name": "Kicklee",
+    "description": "Un Pokémon de combat expert dans les techniques de pieds."
+  },
+  {
+    "id": 107,
+    "name": "Tygnon",
+    "description": "Évolution de Kicklee, il devient plus puissant et agile."
+  },
+  {
+    "id": 108,
+    "name": "Excelangue",
+    "description": "Un Pokémon connu pour sa langue extensible, capable d'attraper des objets à distance."
+  },
+  {
+    "id": 109,
+    "name": "Smogo",
+    "description": "Un Pokémon toxique qui peut créer des nuages de poison."
+  },
+  {
+    "id": 110,
+    "name": "Smogogo",
+    "description": "L'évolution finale, capable de libérer de grandes quantités de gaz toxiques."
+  },
+  {
+    "id": 111,
+    "name": "Rhinocorne",
+    "description": "Un Pokémon robuste qui utilise son épine pour se défendre."
+  },
+  {
+    "id": 112,
+    "name": "Rhinoféros",
+    "description": "L'évolution finale, il est redouté pour sa force brute et son agilité."
+  },
+  {
+    "id": 113,
+    "name": "Leveinard",
+    "description": "Un Pokémon à la fois doux et protecteur, capable de soigner les autres."
+  },
+  {
+    "id": 114,
+    "name": "Saquedeneu",
+    "description": "Évolution de Leveinard, il est capable de soigner des blessures graves."
+  },
+  {
+    "id": 115,
+    "name": "Kangourex",
+    "description": "Un Pokémon puissant qui porte ses jeunes dans sa poche ventrale."
+  },
+  {
+    "id": 116,
+    "name": "Hypotrempe",
+    "description": "Un Pokémon aquatique qui peut plonger à de grandes profondeurs."
+  },
+  {
+    "id": 117,
+    "name": "Hypocéan",
+    "description": "L'évolution finale, connu pour sa capacité à contrôler l'eau et les courants marins."
+  },
+  {
+    "id": 118,
+    "name": "Poissirène",
+    "description": "Un Pokémon aquatique connu pour sa beauté et sa grâce dans l'eau."
+  },
+  {
+    "id": 119,
+    "name": "Poissoroy",
+    "description": "L'évolution finale, un redoutable prédateur marin."
+  },
+  {
+    "id": 120,
+    "name": "Stari",
+    "description": "Un Pokémon étoile qui peut se régénérer facilement."
+  },
+  {
+    "id": 121,
+    "name": "Staross",
+    "description": "Évolution de Stari, il est connu pour ses attaques puissantes."
+  },
+  {
+    "id": 122,
+    "name": "M. Mime",
+    "description": "Un Pokémon qui utilise ses capacités psychiques pour créer des illusions."
+  },
+  {
+    "id": 123,
+    "name": "Insécateur",
+    "description": "Un Pokémon insecte redouté pour sa rapidité et sa précision."
+  },
+  {
+    "id": 124,
+    "name": "Lippoutou",
+    "description": "Un Pokémon qui charme et hypnotise ses ennemis par sa danse."
+  },
+  {
+    "id": 125,
+    "name": "Élektek",
+    "description": "Un Pokémon électrique connu pour sa vitesse et son agilité."
+  },
+  {
+    "id": 126,
+    "name": "Magmar",
+    "description": "Un Pokémon de feu capable de créer des flammes de haute température."
+  },
+  {
+    "id": 127,
+    "name": "Scarabrute",
+    "description": "Un Pokémon insecte avec une carapace dure, il est difficile à combattre."
+  },
+  {
+    "id": 128,
+    "name": "Tauros",
+    "description": "Un puissant Pokémon qui peut charger avec une grande force."
+  },
+  {
+    "id": 129,
+    "name": "Magicarpe",
+    "description": "Un Pokémon apparemment faible, mais il a le potentiel de devenir très puissant."
+  },
+  {
+    "id": 130,
+    "name": "Léviator",
+    "description": "L'évolution de Magicarpe, un Pokémon légendaire avec une grande force."
+  },
+  {
+    "id": 131,
+    "name": "Lokhlass",
+    "description": "Un Pokémon aquatique majestueux, connu pour sa beauté et sa tranquillité."
+  },
+  {
+    "id": 132,
+    "name": "Métamorph",
+    "description": "Un Pokémon unique qui peut se transformer en n'importe quel autre Pokémon."
+  },
+  {
+    "id": 133,
+    "name": "Évoli",
+    "description": "Un Pokémon dont l'évolution dépend de son environnement et de son entraînement."
+  },
+  {
+    "id": 134,
+    "name": "Aquali",
+    "description": "Une des évolutions d'Évoli, maîtrisant le pouvoir de l'eau."
+  },
+  {
+    "id": 135,
+    "name": "Voltali",
+    "description": "Une autre évolution d'Évoli, connu pour sa rapidité et son attaque électrique."
+  },
+  {
+    "id": 136,
+    "name": "Pyroli",
+    "description": "L'évolution feu d'Évoli, réputée pour sa force et son charisme."
+  },
+  {
+    "id": 137,
+    "name": "Porygon",
+    "description": "Un Pokémon virtuel capable de s'adapter à de nombreux environnements."
+  },
+  {
+    "id": 138,
+    "name": "Amonita",
+    "description": "Un Pokémon fossile qui a survécu à l'extinction, représentant la résilience."
+  },
+  {
+    "id": 139,
+    "name": "Amonistar",
+    "description": "L'évolution d'Amonita, un prédateur aquatique redoutable."
+  },
+  {
+    "id": 140,
+    "name": "Kabuto",
+    "description": "Un Pokémon fossile capable de se cacher dans les rochers."
+  },
+  {
+    "id": 141,
+    "name": "Kabutops",
+    "description": "L'évolution finale, connu pour ses lames tranchantes et sa rapidité."
+  },
+  {
+    "id": 142,
+    "name": "Ptéra",
+    "description": "Un Pokémon vol qui domine le ciel avec ses ailes puissantes."
+  },
+  {
+    "id": 143,
+    "name": "Ronflex",
+    "description": "Un Pokémon énorme, connu pour sa force et sa capacité à dormir longtemps."
+  },
+  {
+    "id": 144,
+    "name": "Artikodin",
+    "description": "Un Pokémon légendaire de type glace, représentant la puissance et la majesté."
+  },
+  {
+    "id": 145,
+    "name": "Électhor",
+    "description": "Un Pokémon légendaire électrique, redouté pour sa vitesse et sa puissance."
+  },
+  {
+    "id": 146,
+    "name": "Sulfura",
+    "description": "Un Pokémon légendaire de type feu, symbolisant la destruction et la renaissance."
+  },
+  {
+    "id": 147,
+    "name": "Minidraco",
+    "description": "Un petit dragon, symbole de force et de potentiel."
+  },
+  {
+    "id": 148,
+    "name": "Draco",
+    "description": "L'évolution de Minidraco, connu pour sa grande puissance."
+  },
+  {
+    "id": 149,
+    "name": "Dracolosse",
+    "description": "L'évolution finale, un dragon légendaire qui survole les cieux."
+  },
+  {
+    "id": 150,
+    "name": "Mewtwo",
+    "description": "Un Pokémon légendaire créé par des expériences scientifiques, connu pour son immense pouvoir."
+  },
+  {
+    "id": 151,
+    "name": "Mew",
+    "description": "Un Pokémon mythique, capable de maîtriser toutes les techniques, symbole de mystère."
+  }
+]
