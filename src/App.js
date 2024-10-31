@@ -26,7 +26,7 @@ function App() {
           <Routes>
             <Route path="/" element={<Accueil dataPoke={dataPoke} />} />
             <Route path="/list" element={<PokeList dataPoke={dataPoke} />} />
-            <Route path="/favorites" element={<Fav />} />
+            <Route path="/favorites" element={<Fav dataPoke={dataPoke} />} />
             <Route
               path="/pokemon/:id"
               element={<Detail dataPoke={dataPoke} />}

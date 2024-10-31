@@ -11,7 +11,6 @@ const Detail = ({ dataPoke }) => {
   const navigate = useNavigate();
   const { id } = useParams();
   const foundPokemon = dataPoke.find((p) => p.id === parseInt(id));
-
   if (!foundPokemon) return null;
 
   const foundDescription = desc.find((des) => des.id === foundPokemon.id);
