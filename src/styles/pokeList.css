@@ -17,10 +17,15 @@
 .navlink {
   text-decoration: none;
   transition: 0.3s ease-in-out;
+  color: var(--blue);
 }
 
 .navlink:hover {
   scale: 1.05;
+}
+
+.navlink:visited {
+  color: var(--blue);
 }
 
 .ul-pokeList {
@@ -44,4 +49,10 @@
 
 .name-pokeList {
   font-size: 10px;
+}
+
+@media screen and (max-width: 833px) {
+  .pokeList-nav {
+    flex-direction: column;
+  }
 }

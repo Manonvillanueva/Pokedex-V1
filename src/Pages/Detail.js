@@ -1,9 +1,9 @@
 import React from "react";
+import ProgressBar from "react-bootstrap/ProgressBar";
 import { useNavigate, useParams } from "react-router-dom";
 import "../styles/detail.css";
 import desc from "../json/description.json";
-import ProgressBar from "react-bootstrap/ProgressBar";
-import "bootstrap/dist/css/bootstrap.min.css";
+import gradients from "../json/gradients.json";
 import arrow from "../img/arrow.png";
 import Star from "../Components/Star";
 
@@ -41,7 +41,21 @@ const Detail = ({ dataPoke }) => {
         </div>
         <ul className="ul-types">
           {foundPokemon.apiTypes.map((type, index) => {
-            return <li key={`${type.name}-${index}`}>{type.name}</li>;
+            console.log(type.name.toLowerCase());
+            return (
+              <li
+                key={`${type.name}-${index}`}
+                style={{
+                  background:
+                    gradients[type.name.toLowerCase()]?.[0] || "transparent",
+                  border: `2px solid ${
+                    gradients[type.name.toLowerCase()]?.[1] || "red"
+                  }`,
+                }}
+              >
+                {type.name}
+              </li>
+            );
           })}
         </ul>
       </div>

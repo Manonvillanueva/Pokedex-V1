@@ -1,5 +1,6 @@
 import React, { useEffect, useRef, useState } from "react";
 import "../styles/accueil.css";
+import pokeballColor from "../img/pokeballColor.png";
 
 const Accueil = ({ dataPoke }) => {
   // État pour suivre l'index du Pokémon actuellement affiché
@@ -57,7 +58,8 @@ const Accueil = ({ dataPoke }) => {
 
   return (
     <div className="accueil-container">
-      <div className="left-part">
+      <div className="left-part"></div>
+      <div className="center-part">
         <div className="effect" ref={effectRef} onMouseMove={mouseEffect}>
           <div className="img-content">
             <img
@@ -78,7 +80,14 @@ const Accueil = ({ dataPoke }) => {
                 className={`list-container ${isCurrent ? "current" : ""}`}
                 key={pokemon.id}
               >
-                {pokemon.name}
+                {isCurrent ? (
+                  <div className="pokeballImg">
+                    <img src={pokeballColor} alt="pokeball" />
+                  </div>
+                ) : (
+                  <div className="pokeballImg"></div>
+                )}
+                <span>{pokemon.name}</span>
               </li>
             );
           })}

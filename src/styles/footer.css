@@ -18,7 +18,6 @@
 
 .footer-navlink {
   text-decoration: none;
-  cursor: pointer;
   transition: 0.4s ease;
 }
 
@@ -33,9 +32,29 @@
   display: flex;
   flex-direction: column;
   align-items: center;
+  cursor: pointer;
 }
 
 .violet button img {
   height: 50px;
   padding-bottom: 5px;
+}
+
+@media screen and (max-width: 730px) {
+  .blank {
+    display: none;
+  }
+
+  .violet {
+    width: 100%;
+  }
+}
+
+@media screen and (max-width: 500px) {
+  .violet button {
+    font-size: 10px;
+  }
+  .violet button img {
+    height: 40px;
+  }
 }

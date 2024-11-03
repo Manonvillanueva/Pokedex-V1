@@ -5,7 +5,6 @@ import "../styles/star.css";
 
 const Star = ({ foundPokemon }) => {
   const [like, setLike] = useState(false);
-  console.log(foundPokemon);
 
   useEffect(() => {
     if (!foundPokemon) {

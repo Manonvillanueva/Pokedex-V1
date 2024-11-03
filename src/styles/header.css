@@ -35,3 +35,9 @@ h1 img {
   background: var(--violet2);
   width: 25%;
 }
+
+@media screen and (max-width: 730px) {
+  .title {
+    width: 100%;
+  }
+}

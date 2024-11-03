@@ -1,0 +1,25 @@
+{
+  "combat": ["linear-gradient(to right, #93251f, #c93129, #93251f)", "#c03028"],
+  "eau": ["linear-gradient(to right, #4763a3, #6890f0, #4763a3)", "#84a9ff"],
+  "électrik": [
+    "linear-gradient(to right, #a78c20, #f8d030, #a78c20)",
+    "#f8d030"
+  ],
+  "feu": ["linear-gradient(to right, #73411e, #f08030, #73411e)", "#f08030"],
+  "glace": ["linear-gradient(to right, #77a7a7, #98d8d8, #77a7a7)", "#98d8d8"],
+  "insecte": [
+    "linear-gradient(to right, #6f7916, #a8b820, #6f7916)",
+    "#a8b820"
+  ],
+  "normal": ["linear-gradient(to right, #4e4e3a, #a8a878, #4e4e3a)", "#a8a878"],
+  "plante": ["linear-gradient(to right, #4e8334, #82d956, #4e8334)", "#78c850"],
+  "psy": ["linear-gradient(to right, #8a304b, #f85888, #8a304b)", "#f85888"],
+  "poison": ["linear-gradient(to right, #702d70, #b247b2, #702d70)", "#a040a0"],
+  "roche": ["linear-gradient(to right, #817127, #ccb23c, #817127)", "#b8a038"],
+  "sol": ["linear-gradient(to right, #ad9551, #e0c068, #ad9551)", "#e0c068"],
+  "spectre": [
+    "linear-gradient(to right, #3d3051, #886ab9, #3d3051)",
+    "#705898"
+  ],
+  "vol": ["linear-gradient(to right, #6b5d99, #a890f0, #6b5d99)", "#a890f0"]
+}

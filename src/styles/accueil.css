@@ -6,7 +6,7 @@
   justify-content: center;
 }
 
-.left-part {
+.center-part {
   width: 50%;
 }
 
@@ -21,7 +21,7 @@
   transition: all 0.15s ease-out;
 }
 
-.left-part img {
+.center-part img {
   height: 230px;
   width: 230px;
   background: var(--white);
@@ -29,6 +29,13 @@
   outline: 7px solid var(--white);
   border-radius: 10px;
   box-shadow: 10px 10px 12px 0 var(--blue);
+}
+
+.right-part {
+  width: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 .ul-accueil {
@@ -39,12 +46,19 @@
 
 .list-container {
   background: var(--white);
+  display: flex;
+  align-items: center;
+  justify-content: center;
   border-radius: 20px 0 0 20px;
   padding: 10px 20px;
   font-size: 25px;
-  min-width: 290px;
+  width: 350px;
   transition: transform 0.3s ease, opacity 0.3s ease; /* Ajout d'une transition pour l'opacité et la transformation */
   opacity: 0.8;
+}
+
+.pokeballImg {
+  width: 30%;
 }
 
 .current {
