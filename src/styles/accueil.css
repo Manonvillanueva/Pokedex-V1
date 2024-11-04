@@ -1,12 +1,12 @@
 .accueil-container {
-  min-height: 100%;
-  overflow: hidden;
+  height: 100%;
   display: flex;
   align-items: center;
   justify-content: center;
+  padding: 10px;
 }
 
-.center-part {
+.left-part {
   width: 50%;
 }
 
@@ -21,7 +21,7 @@
   transition: all 0.15s ease-out;
 }
 
-.center-part img {
+.left-part img {
   height: 230px;
   width: 230px;
   background: var(--white);
@@ -34,7 +34,6 @@
 .right-part {
   width: 50%;
   display: flex;
-  align-items: center;
   justify-content: center;
 }
 
@@ -46,22 +45,56 @@
 
 .list-container {
   background: var(--white);
-  display: flex;
-  align-items: center;
-  justify-content: center;
   border-radius: 20px 0 0 20px;
   padding: 10px 20px;
   font-size: 25px;
   width: 350px;
-  transition: transform 0.3s ease, opacity 0.3s ease; /* Ajout d'une transition pour l'opacité et la transformation */
+  transition: transform 0.3s ease, opacity 0.3s ease;
   opacity: 0.8;
 }
 
+.list-container > .navlink-accueil,
+.list-container > div {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+  color: var(--black);
+}
+
+.navlink-accueil {
+  text-decoration: none;
+}
+
 .pokeballImg {
-  width: 30%;
+  width: 50px;
+}
+
+.name-accueil {
+  flex: 1;
+  text-align: right;
 }
 
 .current {
   transform: scale(1.1);
   opacity: 1;
+}
+
+@media screen and (max-width: 980px) {
+  .accueil-container {
+    flex-direction: column;
+    justify-content: space-around;
+  }
+
+  .left-part img {
+    height: 200px;
+    width: 200px;
+  }
+}
+
+@media screen and (max-width: 570px) {
+  .list-container {
+    font-size: 20px;
+    width: 270px;
+  }
 }

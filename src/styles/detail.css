@@ -1,38 +1,47 @@
+/* CONTENEUR */
 .detail-container {
   display: flex;
   height: 471px;
   padding: 10px;
 }
-.left-detail {
-  width: 5%;
-}
+/* LEFT PART - BOUTON RETOUR  */
+
 .return {
   background: none;
   border: none;
-  transition: 0.3s ease-in-out;
   cursor: pointer;
+  transition: 0.3s ease-in-out;
 }
 
 .return:hover {
-  scale: 1.2;
+  transform: scale(1.2);
 }
 
 .return img {
   width: 50px;
 }
+
+/* CENTER PART - IMG ET INFO POKEMON  */
 .center-detail {
-  width: 45%;
+  width: 50%;
   display: flex;
   align-items: center;
   justify-content: space-between;
   flex-direction: column;
 }
 
+/* Nom du Pokémon avec étoile des fav  */
 h3 {
   display: flex;
   align-items: center;
+  flex-direction: column;
 }
 
+.yellow-star {
+  margin-top: 5px;
+}
+
+/* Conteneur img pokemon  */
 .absolute {
   width: 300px;
   position: relative;
@@ -44,20 +53,21 @@ h3 {
   z-index: 2;
 }
 
+/* Cercle en dessous du Pokémon  */
 .circle {
   width: 350px;
   height: 150px;
-  border-radius: 50%;
-  background: #ffffff91;
-  display: inline-block;
   position: absolute;
   bottom: -10px;
   left: 50%;
   transform: translateX(-50%);
+  border-radius: 50%;
+  background: #ffffff91;
   z-index: 1;
   box-shadow: 3px 4px 8px rgb(62, 62, 62);
 }
 
+/* Liste types du pokémon  */
 .ul-types {
   display: flex;
   gap: 10px;
@@ -69,21 +79,30 @@ h3 {
   color: var(--white);
 }
 
+/* RIGHT PART - DESC ET STATS POKEMON  */
 .right-detail {
   width: 50%;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
 }
 
+/* Description du pokémon  */
+.description-detail {
+  display: flex;
+  flex-direction: column;
+  line-height: 20px;
+  gap: 10px;
+}
+
+/* Conteneur des stats pokémon  */
 .stat-pokemon {
   background: #ffffff91;
   padding: 10px;
   box-shadow: 3px 4px 8px rgb(62, 62, 62);
 }
 
-.description-detail {
-  display: flex;
-  flex-direction: column;
-}
-
+/* Barre totale des stats  */
 .custom-progress {
   display: flex;
   width: 100%;
@@ -93,7 +112,54 @@ h3 {
   margin: 4px 0;
 }
 
+/* ProgressBar des stats  */
 .custom-progress .progress-bar {
   background-color: var(--blue);
   border-radius: 10px;
+}
+
+@media screen and (max-width: 1050px) {
+  .center-detail {
+    width: 60%;
+  }
+
+  .circle {
+    width: 290px;
+    height: 125px;
+  }
+
+  .absolute {
+    width: 230px;
+  }
+
+  .right-detail {
+    width: 55%;
+  }
+}
+
+@media screen and (max-width: 875px) {
+  .detail-container {
+    flex-direction: column;
+    min-height: 100vh;
+  }
+
+  .return img {
+    width: 40px;
+  }
+
+  .center-detail {
+    margin: 0 auto;
+  }
+
+  .ul-types {
+    margin: 20px 0px 10px 0px;
+  }
+
+  .right-detail {
+    width: 100%;
+  }
+
+  .stat-pokemon {
+    margin-top: 20px;
+  }
 }

@@ -1,12 +1,16 @@
 import React, { useEffect, useRef, useState } from "react";
 import "../styles/accueil.css";
 import pokeballColor from "../img/pokeballColor.png";
+import { NavLink } from "react-router-dom";
 
 const Accueil = ({ dataPoke }) => {
   // État pour suivre l'index du Pokémon actuellement affiché
-  const [currentIndex, setCurrentIndex] = useState(6);
+  const [currentIndex, setCurrentIndex] = useState(
+    Math.floor(Math.random() * 150)
+  );
   const effectRef = useRef(null);
 
+  // Gestion de l'effet 3D de la carte
   const mouseEffect = (e) => {
     const effect = effectRef.current;
     if (!effect) return;
@@ -58,8 +62,7 @@ const Accueil = ({ dataPoke }) => {
 
   return (
     <div className="accueil-container">
-      <div className="left-part"></div>
-      <div className="center-part">
+      <div className="left-part">
         <div className="effect" ref={effectRef} onMouseMove={mouseEffect}>
           <div className="img-content">
             <img
@@ -81,13 +84,21 @@ const Accueil = ({ dataPoke }) => {
                 key={pokemon.id}
               >
                 {isCurrent ? (
-                  <div className="pokeballImg">
-                    <img src={pokeballColor} alt="pokeball" />
-                  </div>
+                  <NavLink
+                    to={`/pokemon/${dataPoke[index].id}`}
+                    className="navlink-accueil"
+                  >
+                    <div className="pokeballImg">
+                      <img src={pokeballColor} alt="pokeball" />
+                    </div>
+                    <p className="name-accueil">{pokemon.name}</p>
+                  </NavLink>
                 ) : (
-                  <div className="pokeballImg"></div>
+                  <div>
+                    <div className="pokeballImg"></div>
+                    <p className="name-accueil">{pokemon.name}</p>
+                  </div>
                 )}
-                <span>{pokemon.name}</span>
               </li>
             );
           })}

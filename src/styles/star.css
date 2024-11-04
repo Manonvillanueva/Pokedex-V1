@@ -1,3 +1,6 @@
+.yellow-star {
+  transition: 0.3s ease-in-out;
+}
 .yellow-star:hover {
   cursor: pointer;
   scale: 1.1;

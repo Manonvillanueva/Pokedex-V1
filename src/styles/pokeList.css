@@ -1,7 +1,9 @@
+/* CONTENEUR DE LA LISTE DES POKEMONS  */
 .pokeList-container {
   padding: 10px;
 }
 
+/* NAV PART */
 .pokeList-nav {
   display: flex;
   align-items: center;
@@ -14,41 +16,46 @@
   padding: 5px 10px;
 }
 
-.navlink {
-  text-decoration: none;
-  transition: 0.3s ease-in-out;
-  color: var(--blue);
-}
-
-.navlink:hover {
-  scale: 1.05;
-}
-
-.navlink:visited {
-  color: var(--blue);
-}
-
+/* CONTENEUR DE LA LISTE DES POKEMONS  */
 .ul-pokeList {
   display: flex;
   flex-wrap: wrap;
-  align-items: center;
   justify-content: center;
   gap: 10px;
 }
 
+/* Conteneur de chaque Pokémons  */
 .li-pokeList {
   background: rgba(255, 255, 255, 0.766);
   border-radius: 10px;
   height: 150px;
   width: 150px;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  flex-direction: column;
+  transition: transform 0.3s ease-in-out;
 }
 
-.name-pokeList {
-  font-size: 10px;
+.li-pokeList:hover {
+  transform: scale(1.05);
+}
+
+/* Contenu de chaque boîte  */
+.navlink-pokelist {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-decoration: none;
+  color: var(--blue1);
+}
+
+/* id du Pokémon  */
+.id-pokelist {
+  margin-bottom: 5px;
+}
+
+/* Nom du Pokémon  */
+.name-pokelist {
+  font-size: 12px;
 }
 
 @media screen and (max-width: 833px) {

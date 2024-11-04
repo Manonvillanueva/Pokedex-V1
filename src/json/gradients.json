@@ -6,6 +6,7 @@
     "#f8d030"
   ],
   "feu": ["linear-gradient(to right, #73411e, #f08030, #73411e)", "#f08030"],
+  "fée": ["linear-gradient(to right, #844f5b, #ee99ac, #844f5b)", "#ee99ac"],
   "glace": ["linear-gradient(to right, #77a7a7, #98d8d8, #77a7a7)", "#98d8d8"],
   "insecte": [
     "linear-gradient(to right, #6f7916, #a8b820, #6f7916)",

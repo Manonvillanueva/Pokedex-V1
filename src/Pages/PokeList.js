@@ -51,23 +51,22 @@ const PokeList = ({ dataPoke }) => {
           // Affichage de la liste de Pokémon avec les données de dataPoke fournies par l'API
           .map((pokemon) => {
             return (
-              // Lien sur chaque élément de la liste , qui emmène vers le détail de celui-ci
-              <NavLink
-                key={pokemon.id}
-                className="navlink"
-                // Lien vers la page du Pokémon, en concaténant la route et l'ID du Pokémon
-                to={`/pokemon/${pokemon.id}`}
-              >
-                <li className="li-pokeList">
+              <li key={pokemon.id} className="li-pokeList">
+                {/* // Lien sur chaque élément de la liste , qui emmène vers le détail de celui-ci */}
+                <NavLink
+                  className="navlink-pokelist"
+                  // Lien vers la page du Pokémon, en concaténant la route et l'ID du Pokémon
+                  to={`/pokemon/${pokemon.id}`}
+                >
                   <img
                     className="img-pokeList"
                     src={pokemon.sprite}
                     alt={pokemon.name}
                   />
-                  <span className="id-pokeList">{pokemon.id}</span>
-                  <p className="name-pokeList">{pokemon.name}</p>
-                </li>
-              </NavLink>
+                  <span className="id-pokelist">{pokemon.id}</span>
+                  <p className="name-pokelist">{pokemon.name}</p>
+                </NavLink>
+              </li>
             );
           })}
       </ul>

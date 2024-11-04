@@ -11,8 +11,11 @@
     0 0.5rem 0.5rem rgba(255, 255, 255, 0.4) inset,
     0 0.25rem 0.5rem 0 rgb(75, 70, 207) inset;
   display: flex;
+  flex-direction: column;
   align-items: center;
   justify-content: center;
+  gap: 10px;
+  padding: 10px;
 }
 
 h1 {
@@ -23,21 +26,32 @@ h1 {
   box-shadow: 1px 2px 3px 0 rgb(12, 12, 12);
   display: flex;
   align-items: center;
+  text-align: center;
   gap: 10px;
-  padding: 10px 2px;
+  padding: 8px 20px;
 }
 
-h1 img {
-  width: 20px;
+.title img {
+  width: 40px;
 }
 
-.blank {
+.blank-header {
   background: var(--violet2);
   width: 25%;
+  text-align: center;
 }
 
-@media screen and (max-width: 730px) {
+.blank-header img {
+  height: 100%;
+  max-width: 100%;
+}
+
+@media screen and (max-width: 770px) {
   .title {
     width: 100%;
+  }
+
+  .blank-header {
+    display: none;
   }
 }

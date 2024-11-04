@@ -6,35 +6,34 @@ import "../styles/fav.css";
 const Fav = ({ dataPoke }) => {
   const item = JSON.parse(localStorage.getItem("pokemon") || "[]");
 
+  const styleGradients = (pokemon) => {
+    return {
+      background:
+        gradients[pokemon.apiTypes[0].name.toLowerCase()]?.[0] || "transparent",
+      border: `4px solid ${
+        gradients[pokemon.apiTypes[0].name.toLowerCase()]?.[1] || "transparent"
+      }`,
+    };
+  };
+
   const favoriteItem = dataPoke
     .filter((pokemon) => item.includes(pokemon.id))
     .map((pokemon) => (
-      <NavLink
-        className="navlink"
-        to={`/pokemon/${pokemon.id}`}
-        key={pokemon.id}
-      >
-        <li
-          style={{
-            background:
-              gradients[pokemon.apiTypes[0].name.toLowerCase()]?.[0] ||
-              "transparent",
-            border: `4px solid ${
-              gradients[pokemon.apiTypes[0].name.toLowerCase()]?.[1] ||
-              "transparent"
-            }`,
-          }}
-          className="li-fav"
-        >
-          <img src={pokemon.image} alt={pokemon.name}></img>
+      <li key={pokemon.id} style={styleGradients(pokemon)} className="li-fav">
+        <NavLink className="navlink-fav" to={`/pokemon/${pokemon.id}`}>
+          <img src={pokemon.image} alt={pokemon.name} />
           <p>{pokemon.name}</p>
-        </li>
-      </NavLink>
+        </NavLink>
+      </li>
     ));
 
   return (
-    <div>
-      <ul className="ul-fav">{favoriteItem}</ul>
+    <div className="fav-container">
+      {item.length > 0 ? (
+        <ul className="ul-fav">{favoriteItem}</ul>
+      ) : (
+        <p>Aucun Pokémon dans vos favoris ...</p>
+      )}
     </div>
   );
 };

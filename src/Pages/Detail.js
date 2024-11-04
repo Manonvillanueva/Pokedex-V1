@@ -15,10 +15,35 @@ const Detail = ({ dataPoke }) => {
 
   const foundDescription = desc.find((des) => des.id === foundPokemon.id);
 
+  // Fonction pour gérer le retour à la page précédente
   const handleClick = () => {
     navigate(-1);
   };
 
+  // Fonction pour changer le style de la liste des types
+  const typeStyle = (type) => {
+    return {
+      background: gradients[type.name.toLowerCase()]?.[0] || "transparent",
+      border: `2px solid ${gradients[type.name.toLowerCase()]?.[1] || "red"}`,
+    };
+  };
+
+  const stats = [
+    { label: "PV", now: foundPokemon.stats.HP, max: 250 },
+    { label: "Attaque", now: foundPokemon.stats.attack, max: 130 },
+    { label: "Défense", now: foundPokemon.stats.defense, max: 230 },
+    {
+      label: "Attaque Spéciale",
+      now: foundPokemon.stats.special_attack,
+      max: 135,
+    },
+    {
+      label: "Défense Spéciale",
+      now: foundPokemon.stats.special_defense,
+      max: 230,
+    },
+    { label: "Vitesse", now: foundPokemon.stats.speed, max: 140 },
+  ];
   return (
     <div className="detail-container">
       <div className="left-detail">
@@ -41,18 +66,8 @@ const Detail = ({ dataPoke }) => {
         </div>
         <ul className="ul-types">
           {foundPokemon.apiTypes.map((type, index) => {
-            console.log(type.name.toLowerCase());
             return (
-              <li
-                key={`${type.name}-${index}`}
-                style={{
-                  background:
-                    gradients[type.name.toLowerCase()]?.[0] || "transparent",
-                  border: `2px solid ${
-                    gradients[type.name.toLowerCase()]?.[1] || "red"
-                  }`,
-                }}
-              >
+              <li key={`${type.name}-${index}`} style={typeStyle(type)}>
                 {type.name}
               </li>
             );
@@ -62,58 +77,22 @@ const Detail = ({ dataPoke }) => {
 
       <div className="right-detail">
         <p className="description-detail">
-          <span>Description</span>
+          <span>Description :</span>
           {foundDescription.description}
         </p>
         <div className="stat-pokemon">
-          <div>
-            <span>PV:</span>
-            <ProgressBar
-              now={foundPokemon.stats.HP}
-              max={250}
-              className="custom-progress"
-            />
-          </div>
-          <div>
-            <span>Attaque:</span>
-            <ProgressBar
-              now={foundPokemon.stats.attack}
-              max={130}
-              className="custom-progress"
-            />
-          </div>
-          <div>
-            <span>Défense:</span>
-            <ProgressBar
-              now={foundPokemon.stats.defense}
-              max={230}
-              className="custom-progress"
-            />
-          </div>
-          <div>
-            <span>Attaque spéciale:</span>
-            <ProgressBar
-              now={foundPokemon.stats.special_attack}
-              max={135}
-              className="custom-progress"
-            />
-          </div>
-          <div>
-            <span>Défense spéciale:</span>
-            <ProgressBar
-              now={foundPokemon.stats.special_defense}
-              max={230}
-              className="custom-progress"
-            />
-          </div>
-          <div>
-            <span>Vitesse:</span>
-            <ProgressBar
-              now={foundPokemon.stats.speed}
-              max={140}
-              className="custom-progress"
-            />
-          </div>
+          {stats.map((stat) => {
+            return (
+              <div key={stat.label}>
+                <span>{`${stat.label}:`}</span>
+                <ProgressBar
+                  now={stat.now}
+                  max={stat.max}
+                  className="custom-progress"
+                />
+              </div>
+            );
+          })}
         </div>
       </div>
     </div>

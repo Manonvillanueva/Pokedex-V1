@@ -1,26 +1,42 @@
+/* CONTENEUR DE LA PAGE FAVORIS  */
+.fav-container {
+  padding: 10px;
+}
+
+/* CONTENEUR DE LA LISTE DES FAVORIS  */
 .ul-fav {
   display: flex;
   justify-content: center;
   flex-wrap: wrap;
   gap: 10px;
-  padding: 10px;
 }
 
-.navlink {
-  text-decoration: none;
-}
-
+/* Conteneur de chaque Pokémon  */
 .li-fav {
   height: 200px;
   width: 200px;
   border-radius: 10px;
-  color: var(--white);
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  flex-direction: column;
+  transition: transform 0.3s ease-in-out;
 }
 
-.li-fav img {
+.li-fav:hover {
+  transform: scale(1.05);
+}
+
+/* Contenu de chaque li  */
+.navlink-fav {
+  height: 100%;
+  text-decoration: none;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.navlink-fav img {
   max-height: 80%;
+}
+
+.navlink-fav p {
+  color: var(--white);
 }
