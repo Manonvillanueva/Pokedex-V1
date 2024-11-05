@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useState } from "react";
 import { NavLink } from "react-router-dom";
 import gradients from "../json/gradients.json";
 import "../styles/fav.css";
@@ -26,6 +26,10 @@ const Fav = ({ dataPoke }) => {
         </NavLink>
       </li>
     ));
+
+  useState(() => {
+    localStorage.removeItem("scrollPosition");
+  });
 
   return (
     <div className="fav-container">

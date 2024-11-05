@@ -1,4 +1,5 @@
 {
+  "acier": ["linear-gradient(to right, #55555a, #b7b7c2, #55555a)", "#b7b7c2"],
   "combat": ["linear-gradient(to right, #93251f, #c93129, #93251f)", "#c03028"],
   "eau": ["linear-gradient(to right, #4763a3, #6890f0, #4763a3)", "#84a9ff"],
   "électrik": [

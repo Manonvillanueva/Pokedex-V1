@@ -27,6 +27,7 @@ const Accueil = ({ dataPoke }) => {
   };
 
   useEffect(() => {
+    localStorage.removeItem("scrollPosition");
     // Fonction pour gérer les changements d'index avec les touches fléchées
     // Lorsque l'utilisateur appuie sur les touches fléchées (ArrowUp ou ArrowDown), la fonction est déclenchée et détecte laquelle a été préssée grâce à l'évènement(e)
     // On peut le vérifier en faisant un console.log(e.key)

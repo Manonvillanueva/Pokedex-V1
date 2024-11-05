@@ -76,10 +76,8 @@ const Detail = ({ dataPoke }) => {
       </div>
 
       <div className="right-detail">
-        <p className="description-detail">
-          <span>Description :</span>
-          {foundDescription.description}
-        </p>
+        <span>Description :</span>
+        <p className="description-detail">{foundDescription.description}</p>
         <div className="stat-pokemon">
           {stats.map((stat) => {
             return (

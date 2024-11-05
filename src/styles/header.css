@@ -1,6 +1,7 @@
 .header-pokedex {
   height: 130px;
   display: flex;
+  border-bottom: 2px solid var(--black);
 }
 
 .title {

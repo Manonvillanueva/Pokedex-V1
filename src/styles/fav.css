@@ -1,6 +1,10 @@
 /* CONTENEUR DE LA PAGE FAVORIS  */
 .fav-container {
+  height: 476px;
   padding: 10px;
+  overflow-y: scroll;
+  scrollbar-color: var(--blue) transparent;
+  scrollbar-width: thin;
 }
 
 /* CONTENEUR DE LA LISTE DES FAVORIS  */

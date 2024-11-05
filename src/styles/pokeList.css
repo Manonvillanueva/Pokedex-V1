@@ -1,6 +1,10 @@
 /* CONTENEUR DE LA LISTE DES POKEMONS  */
 .pokeList-container {
   padding: 10px;
+  height: 476px;
+  overflow-y: scroll;
+  scrollbar-color: var(--blue) transparent;
+  scrollbar-width: thin;
 }
 
 /* NAV PART */

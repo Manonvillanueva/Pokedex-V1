@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import React, { useEffect, useRef, useState } from "react";
 import "../styles/pokeList.css";
 import { NavLink } from "react-router-dom";
 
@@ -8,8 +8,18 @@ const PokeList = ({ dataPoke }) => {
   // État pour stocker le critère de tri sélectionné pour les Pokémon
   const [sortPokemon, setSortPokemon] = useState("");
 
+  const pokeListRef = useRef(null);
+
+  const savedPosition = () => {
+    localStorage.setItem("scrollPosition", pokeListRef.current.scrollTop);
+  };
+
+  useEffect(() => {
+    pokeListRef.current.scrollTop = localStorage.getItem("scrollPosition");
+  }, []);
+
   return (
-    <div className="pokeList-container">
+    <div className="pokeList-container" ref={pokeListRef}>
       <div className="pokeList-nav">
         {/* Met à jour l'état searchPoke avec la valeur saisie par l'utilisateur */}
         <input
@@ -57,6 +67,7 @@ const PokeList = ({ dataPoke }) => {
                   className="navlink-pokelist"
                   // Lien vers la page du Pokémon, en concaténant la route et l'ID du Pokémon
                   to={`/pokemon/${pokemon.id}`}
+                  onClick={savedPosition}
                 >
                   <img
                     className="img-pokeList"

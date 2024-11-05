@@ -1,6 +1,7 @@
 .footer-pokedex {
-  height: 179px;
+  height: 178px;
   display: flex;
+  border-top: 2px solid var(--black);
 }
 
 .violet {

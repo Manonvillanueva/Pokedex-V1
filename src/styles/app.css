@@ -40,13 +40,11 @@ body {
 }
 
 .main-container {
-  height: 475px;
+  /* height: 476px; */
   background: linear-gradient(#7d8bf3 15%, #4a71f3, #3c67f3, #4a71f3, #7d8bf3);
-  border-top: 2px solid rgb(26, 26, 26);
-  border-bottom: 2px solid rgb(26, 26, 26);
-  overflow-y: scroll;
-  scrollbar-color: var(--blue) transparent;
-  scrollbar-width: thin;
+  /* overflow-y: scroll; */
+  /* scrollbar-color: var(--blue) transparent;
+  scrollbar-width: thin; */
 }
 
 @media screen and (max-width: 433px) {
