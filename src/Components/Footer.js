@@ -1,16 +1,19 @@
 import React from "react";
+import { NavLink } from "react-router-dom";
 import "../styles/footer.css";
 import houseImg from "../img/House.png";
 import pokeballImg from "../img/Pokeball.png";
 import starImg from "../img/star.png";
 import pyroli from "../img/Pyroli-Pokedex.png";
-import { NavLink } from "react-router-dom";
 
 const Footer = () => {
   return (
     <div className="footer-pokedex">
+      {/* LEFT PART  */}
       <div className="violet">
+        {/* LINK HOME PART  */}
         <NavLink
+          // Utilisation d'une classe isActive pour changer les effets du lien qui est selectionné
           className={({ isActive }) =>
             `footer-navlink ${isActive ? "active-link" : ""}`
           }
@@ -19,6 +22,8 @@ const Footer = () => {
           <img src={houseImg} alt="logo maison" />
           Accueil
         </NavLink>
+
+        {/* LINK POKELIST PART  */}
         <NavLink
           className={({ isActive }) =>
             `footer-navlink ${isActive ? "active-link" : ""}`
@@ -28,6 +33,8 @@ const Footer = () => {
           <img src={pokeballImg} alt="logo pokeball" />
           PokéList
         </NavLink>
+
+        {/* LINK FAV PART  */}
         <NavLink
           className={({ isActive }) =>
             `footer-navlink ${isActive ? "active-link" : ""}`
@@ -38,6 +45,8 @@ const Footer = () => {
           Mes Fav'
         </NavLink>
       </div>
+
+      {/* RIGHT PART  */}
       <div className="blank-footer">
         <img src={pyroli} alt="pyroli" />
       </div>

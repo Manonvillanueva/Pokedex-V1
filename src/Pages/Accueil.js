@@ -5,9 +5,12 @@ import { NavLink } from "react-router-dom";
 
 const Accueil = ({ dataPoke }) => {
   // État pour suivre l'index du Pokémon actuellement affiché
+  // Initialisation de currentIndex entre 0 et 150 pour afficher un Pokémon au hasard
   const [currentIndex, setCurrentIndex] = useState(
     Math.floor(Math.random() * 150)
   );
+
+  // Accéder à l'élément du DOM .effect
   const effectRef = useRef(null);
 
   // Gestion de l'effet 3D de la carte
@@ -27,6 +30,8 @@ const Accueil = ({ dataPoke }) => {
   };
 
   useEffect(() => {
+    // Retirer l'élément de scroll position stocké dans le localStorage à chaque chargement
+    // Pour revenir en haut de la pokeList et non à cette pos enregistrée
     localStorage.removeItem("scrollPosition");
     // Fonction pour gérer les changements d'index avec les touches fléchées
     // Lorsque l'utilisateur appuie sur les touches fléchées (ArrowUp ou ArrowDown), la fonction est déclenchée et détecte laquelle a été préssée grâce à l'évènement(e)
@@ -63,9 +68,12 @@ const Accueil = ({ dataPoke }) => {
 
   return (
     <div className="accueil-container">
+      {/* LEFT PART - IMG POKEMON */}
       <div className="left-part">
+        {/* Élément qui applique un effet 3D lorsque l'utilisateur déplace la souris */}
         <div className="effect" ref={effectRef} onMouseMove={mouseEffect}>
           <div className="img-content">
+            {/* Si le Pokémon est défini au currentIndex, alors on affiche son image */}
             <img
               src={dataPoke[currentIndex] ? dataPoke[currentIndex].image : null}
               alt={dataPoke[currentIndex]?.name}
@@ -73,17 +81,24 @@ const Accueil = ({ dataPoke }) => {
           </div>
         </div>
       </div>
+
+      {/* RIGHT PART - DISPLAY 3 POKEMONS  */}
       <div className="right-part">
         <ul className="ul-accueil">
+          {/* Parcourt chaque élément de displayInedx  */}
           {displayIndex.map((index) => {
+            // Pour chaque index dans displayIndex, on récupère le Pokémon correspondant dans dataPoke (données de l'API)
             const pokemon = dataPoke[index];
             if (!pokemon) return null;
+            // Booléen pour savoir si l'élement de displayIndex correspond au currentIndex
             const isCurrent = index === currentIndex;
             return (
               <li
                 className={`list-container ${isCurrent ? "current" : ""}`}
                 key={pokemon.id}
               >
+                {/* Si c'est le Pokémon actuel, on crée un lien vers la page du
+                  Pokémon */}
                 {isCurrent ? (
                   <NavLink
                     to={`/pokemon/${dataPoke[index].id}`}
@@ -95,6 +110,7 @@ const Accueil = ({ dataPoke }) => {
                     <p className="name-accueil">{pokemon.name}</p>
                   </NavLink>
                 ) : (
+                  // Si ce n'est pas le Pokémon avec le currentIndex, on affiche juste son nom
                   <div>
                     <div className="pokeballImg"></div>
                     <p className="name-accueil">{pokemon.name}</p>

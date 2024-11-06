@@ -8,8 +8,10 @@ const PokeList = ({ dataPoke }) => {
   // État pour stocker le critère de tri sélectionné pour les Pokémon
   const [sortPokemon, setSortPokemon] = useState("");
 
+  // Sélection de l'élément du DOM .pokelist-container pour par la suite enregistrer la position du scroll
   const pokeListRef = useRef(null);
 
+  // Enregistrement de la position du scroll dans le localStorage
   const savedPosition = () => {
     localStorage.setItem("scrollPosition", pokeListRef.current.scrollTop);
   };

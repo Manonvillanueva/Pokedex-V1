@@ -1,3 +1,4 @@
+/* ACCUEIL CONTAINER  */
 .accueil-container {
   height: 476px;
   display: flex;
@@ -6,10 +7,12 @@
   padding: 10px;
 }
 
+/* LEFT PART - IMG POKEMON */
 .left-part {
   width: 50%;
 }
 
+/* div pour la perspective 3D  */
 .effect {
   perspective: 1000px;
   display: flex;
@@ -21,6 +24,7 @@
   transition: all 0.15s ease-out;
 }
 
+/* Image du Pokémon  */
 .left-part img {
   height: 230px;
   width: 230px;
@@ -31,18 +35,21 @@
   box-shadow: 10px 10px 12px 0 var(--blue);
 }
 
+/* RIGHT PART  */
 .right-part {
   width: 50%;
   display: flex;
   justify-content: center;
 }
 
+/* LISTE CONTAINER  */
 .ul-accueil {
   gap: 15px;
   display: flex;
   flex-direction: column;
 }
 
+/* EACH LIST ELEMENT  */
 .list-container {
   background: var(--white);
   border-radius: 20px 0 0 20px;
@@ -51,6 +58,16 @@
   width: 350px;
   transition: transform 0.3s ease, opacity 0.3s ease;
   opacity: 0.8;
+}
+
+.navlink-accueil {
+  text-decoration: none;
+}
+
+/* Pokémon currentIndex  */
+.current {
+  transform: scale(1.1);
+  opacity: 1;
 }
 
 .list-container > .navlink-accueil,
@@ -62,22 +79,15 @@
   color: var(--black);
 }
 
-.navlink-accueil {
-  text-decoration: none;
-}
-
+/* Pokéball dans la liste  */
 .pokeballImg {
   width: 50px;
 }
 
+/* Nom des pokémons  */
 .name-accueil {
   flex: 1;
   text-align: right;
-}
-
-.current {
-  transform: scale(1.1);
-  opacity: 1;
 }
 
 @media screen and (max-width: 980px) {

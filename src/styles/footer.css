@@ -1,9 +1,11 @@
+/* FOOTER CONTAINER  */
 .footer-pokedex {
   height: 178px;
   display: flex;
   border-top: 2px solid var(--black);
 }
 
+/* LEFT PART FOOTER - LINK CONTAINER  */
 .violet {
   display: flex;
   align-items: center;
@@ -17,6 +19,7 @@
     0 0.25rem 0.5rem 0 rgb(75, 70, 207) inset;
 }
 
+/* Links part */
 .footer-navlink {
   text-decoration: none;
   display: flex;
@@ -39,6 +42,7 @@
   transform: scale(1.15) rotate(-5deg);
 }
 
+/* RIGHT PART FOOTER  */
 .blank-footer {
   background: var(--violet2);
   width: 25%;

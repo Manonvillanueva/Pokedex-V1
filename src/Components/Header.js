@@ -6,10 +6,12 @@ import pikachu from "../img/pikachu1.png";
 const Header = () => {
   return (
     <div className="header-pokedex">
+      {/* LEFT PART  */}
       <div className="title">
         <img src={pokeballImg} alt="pokeball" />
         <h1>Manon's Pokedex</h1>
       </div>
+      {/* RIGHT PART  */}
       <div className="blank-header">
         <img src={pikachu} alt="pikachu" />
       </div>
