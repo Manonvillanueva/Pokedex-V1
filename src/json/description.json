@@ -2,12 +2,12 @@
   {
     "id": 1,
     "name": "Bulbizarre",
-    "description": "Bulbizarre porte un bulbe sur son dos,  il peut survivre plusieurs jours sans manger grâce à l'énergie qui y est accumulé. Sa force est incroyable, il peut soulever des masses équivalentes à la sienne, voire plus grosses."
+    "description": "Bulbizarre porte un bulbe sur son dos,  il peut survivre plusieurs jours sans manger grâce à l'énergie qui y est accumulé. Il peut soulever des masses équivalentes à la sienne, voire plus grosses."
   },
   {
     "id": 2,
     "name": "Herbizarre",
-    "description": "Évolution de Bulbizarre, son bulbe a fleuri et est devenu un gros bourgeon rose.  Plus il s’expose au soleil, plus il emmagasine d’énergie, ce qui permet au bourgeon de se développer et lui donne plus de force"
+    "description": "Évolution de Bulbizarre, son bulbe a fleuri et est devenu un gros bourgeon rose.  Plus il s’expose au soleil, plus il emmagasine d’énergie, ce qui lui donne plus de force"
   },
   {
     "id": 3,
@@ -17,27 +17,27 @@
   {
     "id": 4,
     "name": "Salamèche",
-    "description": "Un Pokémon de feu dont la queue s'enflamme selon son humeur, elle brûle fièrement quand le Pokémon est en pleine forme, doucement si le Pokémon est faible ou triste, ondoie quand il est heureux et flamboie quand il est en colère."
+    "description": "Un Pokémon de feu dont la queue s'enflamme selon son humeur, elle brûle fièrement quand le Pokémon est en pleine forme, doucement si le Pokémon est faible et flamboie quand il est en colère."
   },
   {
     "id": 5,
     "name": "Reptincel",
-    "description": "Évolution de Salamèche, il développe des flammes plus puissantes, qui lui sert notamment à élever sa température, le rendant plus puissant en combat, et à faire chuter ses adversaires avant de les achever."
+    "description": "Évolution de Salamèche, il développe des flammes plus puissantes, qui lui sert notamment à élever sa température, le rendant plus puissant en combat."
   },
   {
     "id": 6,
     "name": "Dracaufeu",
-    "description": "L'évolution finale de Salamèche, Dracaufeu n'attaque pas les plus faibles que lui et cherche toujours des adversaires plus forts. Quand Dracaufeu s’énerve réellement, la flamme au bout de sa queue devient bleue."
+    "description": "L'évolution finale de Salamèche, Dracaufeu n'attaque pas les plus faibles que lui et cherche toujours des adversaires plus forts. Quand il s’énerve, la flamme au bout de sa queue devient bleue."
   },
   {
     "id": 7,
     "name": "Carapuce",
-    "description": "Carapuce est un Pokémon de type Eau, doté d'une carapace protectrice qui lui permet de se défendre et de réduire les impacts. Agile dans l'eau, Carapuce nage avec rapidité et se recroqueville dans sa carapace lorsqu'il se sent menacé."
+    "description": "Carapuce est doté d'une carapace protectrice qui lui permet de se défendre et de réduire les impacts. Carapuce se recroqueville dans sa carapace lorsqu'il se sent menacé."
   },
   {
     "id": 8,
     "name": "Carabaffe",
-    "description": "Évolution de Carapuce, il maîtrise l'art de l'hydro-pulsion, lui permettant de se déplacer rapidement dans l'eau. Sa queue peut administrer de puissantes volées de coups et ses pattes robustes lui permettent de résister aux chocs."
+    "description": "Évolution de Carapuce, Carabaffe se déplacer rapidement dans l'eau. Sa queue peut administrer de puissantes volées de coups et ses pattes robustes lui permettent de résister aux chocs."
   },
   {
     "id": 9,
@@ -47,17 +47,17 @@
   {
     "id": 10,
     "name": "Chenipan",
-    "description": "Chenipan est un Pokémon insecte, qui se défend avec une petite corne sur sa tête, capable de dégager une odeur nauséabonde pour éloigner les ennemis. Lorsqu'il est prêt à évoluer, il tisse un cocon pour devenir un Chrysacier."
+    "description": "Chenipan est un Pokémon insecte, qui se défend avec une petite corne sur sa tête, capable de dégager une odeur nauséabonde pour éloigner les ennemis."
   },
   {
     "id": 11,
     "name": "Chrysacier",
-    "description": "Évolution de Chenipan, protégé par une carapace dure comme de l'acier, ce Pokémon passe la majorité de son temps immobile, économisant son énergie pour sa transformation en Papilusion. Son extérieur rigide le protège des prédateurs."
+    "description": "Évolution de Chenipan, protégé par une carapace dure comme de l'acier, il passe la majorité de son temps immobile, économisant son énergie pour son évolution. Sa carapace le protège des prédateurs."
   },
   {
     "id": 12,
     "name": "Papilusion",
-    "description": "Évolution de Chrysacier, ce papillon majestueux est doté d'un odorat exceptionnel lui permettant de repérer le nectar des fleurs à grande distance. Ses ailes lui permettent également de libérer des écailles qui peuvent paralyser ses ennemis."
+    "description": "Évolution de Chrysacier, ce papillon majestueux. Ses ailes lui permettent également de libérer des écailles qui peuvent paralyser ses ennemis."
   },
   {
     "id": 13,
@@ -67,22 +67,22 @@
   {
     "id": 14,
     "name": "Coconfort",
-    "description": "Évolution d'Aspicot, il se protège avec une carapace solide tout en se préparant à évoluer. Bien qu'il ne soit pas très mobile, Coconfort peut toujours utiliser l’aiguillon de sa tête pour se défendre si nécessaire."
+    "description": "Évolution d'Aspicot, il se protège avec une carapace solide tout en se préparant à évoluer. Bien qu'il ne soit pas très mobile, Coconfort peut utiliser l’aiguillon de sa tête pour se défendre."
   },
   {
     "id": 15,
     "name": "Dardargnan",
-    "description": "L'évolution finale d'Aspicot, redouté pour sa vitesse et son venin puissant. Bien qu'il soit souvent considéré comme féroce, Dardagnan est très protecteur envers ses proches et peut défendre son territoire avec courage."
+    "description": "L'évolution finale d'Aspicot, redouté pour sa vitesse et son venin puissant. Bien qu'il soit souvent considéré comme féroce, Dardagnan est très protecteur et peut défendre son territoire avec courage."
   },
   {
     "id": 16,
     "name": "Roucool",
-    "description": "Un oiseau Pokémon qui a un fort sens de l'orientation, capable de trouver son chemin à travers les tempêtes. En agitant rapidement ses ailes, il peut soulever des nuages de poussière et créer des tourbillons pour se protéger et faire fuir son potentiel ennemi."
+    "description": "Un Pokémon qui a un fort sens de l'orientation, capable de trouver son chemin à travers les tempêtes. En agitant ses ailes, il peut créer des tourbillons de poussières pour se protéger."
   },
   {
     "id": 17,
     "name": "Roucoups",
-    "description": "Évolution de Roucool, connu pour sa capacité à repérer les dangers de loin. Fier et protecteur, il est connu pour son esprit territorial et sa capacité à réaliser des manœuvres aériennes impressionnantes."
+    "description": "Évolution de Roucool, connu pour sa capacité à repérer les dangers de loin. Fier et protecteur, il est connu pour réaliser des manœuvres aériennes impressionnantes."
   },
   {
     "id": 18,
@@ -107,7 +107,7 @@
   {
     "id": 22,
     "name": "Rapasdepic",
-    "description": "Évolution de Piafabec, reconnu pour son plumage coloré et sa grande taille. Il possède un bec puissant capable de briser des noix et de percer des objets durs. Il repère ses proies depuis les hauteurs avec sa vue perçante ."
+    "description": "Évolution de Piafabec, Rapasdepic possède un bec puissant capable de briser des noix et de percer des objets durs. Il repère ses proies depuis les hauteurs avec sa vue perçante ."
   },
   {
     "id": 23,
@@ -127,17 +127,17 @@
   {
     "id": 26,
     "name": "Raichu",
-    "description": "Raichu est l'évolution de Pikachu et est un Pokémon de type Électrique. Plus grand et plus puissant que son prédécesseur, il possède une queue plus longue et des joues qui peuvent générer une énergie électrique considérable. "
+    "description": "Raichu est l'évolution de Pikachu. Plus grand et plus puissant que son prédécesseur, il possède une queue plus longue et des joues qui peuvent générer une énergie électrique considérable. "
   },
   {
     "id": 27,
     "name": "Sabelette",
-    "description": "Sabelette est un Pokémon de type Sol. Avec son corps long et sa queue en forme de fouet, il se déplace rapidement dans le sable. Sa capacité à creuser rapidement lui permet d'échapper à ses prédateurs et de chasser ses proies."
+    "description": "Sabelette est un Pokémon de type Sol. Avec son corps long, il se déplace rapidement dans le sable. Sa capacité à creuser rapidement lui permet d'échapper à ses prédateurs et de chasser ses proies."
   },
   {
     "id": 28,
     "name": "Sablaireau",
-    "description": "L'évolution finale de Sabelette, ses pattes puissantes lui permettent de creuser des tunnels dans le sol. Capable de se déplacer rapidement sous terre, il utilise cette compétence pour éviter les dangers et trouver de la nourriture. "
+    "description": "L'évolution finale de Sabelette, ses pattes puissantes lui permettent de creuser des tunnels dans le sol. Capable de se déplacer rapidement sous terre, il utilise cette compétence pour éviter les dangers. "
   },
   {
     "id": 29,
@@ -147,27 +147,27 @@
   {
     "id": 30,
     "name": "Nidorina",
-    "description": "Évolution de Nidoran♀, elle est plus grande et plus robuste que sa forme précédente, avec une peau bleue et des oreilles pointues. Nidorina est connue pour sa nature protectrice envers ses compagnons et possède des épines venimeuses qui lui permettent de se défendre."
+    "description": "Évolution de Nidoran♀, plus robuste que sa forme précédente. Nidorina est connue pour sa nature protectrice envers ses compagnons et possède des épines venimeuses qui lui permettent de se défendre."
   },
   {
     "id": 31,
     "name": "Nidoqueen",
-    "description": "L'évolution finale, un puissant Pokémon qui peut contrôler des attaques de type Poison."
+    "description": "Nidoqueen est l'évolution finale de Nidoran♀, un Pokémon imposant. Elle utilise ses griffes pour se battre, et sa capacité à libérer des toxines par ses épines la rend redoutable en combat. "
   },
   {
     "id": 32,
     "name": "Nidoran♂",
-    "description": "Reconnaissable à sa couleur violette, elle est souvent considérée comme douce et protectrice. Nidoran est connue pour sa capacité à détecter les dangers grâce à son sens de l'odorat développé."
+    "description": "Nidoran♂ est un Pokémon de type Poison, caractérisé par ses épines venimeuses sur le dos. Plutôt timide, mais lorsqu'il se sent menacé, il n'hésite pas à utiliser ses épines pour se défendre."
   },
   {
     "id": 33,
     "name": "Nidorino",
-    "description": "Évolution de Nidoran♂, il est plus agressif et sait mieux se défendre."
+    "description": "Nidorino est l'évolution de Nidoran♂, un Pokémon plus agressif et plus imposant. Avec sa silhouette musclée, ses épines acérées, il est prêt à défendre son territoire avec férocité."
   },
   {
     "id": 34,
     "name": "Nidoking",
-    "description": "L'évolution finale, un Pokémon puissant qui utilise sa force brute et ses attaques de type Poison."
+    "description": "Nidoking est l'évolution finale de Nidorino, un Pokémon puissant et majestueux. Son corps massif, ses épines acérées, ses griffes et sa queue robuste lui permettent de se défendre efficacement."
   },
   {
     "id": 35,
@@ -177,57 +177,57 @@
   {
     "id": 36,
     "name": "Mélodelfe",
-    "description": "Évolution de Mélofée, elle peut créer des mélodies apaisantes qui influencent les émotions. Mélodelfe est admiré pour sa capacité à marcher presque sans toucher le sol, donnant l'impression qu'il flotte délicatement."
+    "description": "Évolution de Mélofée, elle peut créer des mélodies apaisantes qui influencent les émotions. Mélodelfe est admiré pour sa capacité à marcher presque sans toucher le sol, donnant l'impression qu'il flotte."
   },
   {
     "id": 37,
     "name": "Goupix",
-    "description": "Un adorable Pokémon de feu, facilement reconnaissable à ses six queues élégantes et ondulantes. À sa naissance, il n’en a qu’une, qui se divise en plusieurs au fur et à mesure de sa croissance. Doté de la capacité de manipuler des petites flammes, Goupix est un compagnon agile et rusé."
+    "description": "Un adorable Pokémon de feu, facilement reconnaissable à ses six queues élégantes et ondulantes. À sa naissance, il n’en a qu’une, qui se divise en plusieurs au fur et à mesure de sa croissance."
   },
   {
     "id": 38,
     "name": "Feunard",
-    "description": "Feunard est l'évolution élégante et mystique de Goupix, arborant neuf queues dotées de pouvoirs mystérieux. Intelligent et majestueux, il est aussi connu pour sa longévité légendaire, pouvant vivre jusqu'à mille ans."
+    "description": "Feunard est l'évolution élégante et mystique de Goupix, arborant neuf queues dotées de pouvoirs mystérieux. Il est aussi connu pour sa longévité légendaire, pouvant vivre jusqu'à mille ans."
   },
   {
     "id": 39,
     "name": "Rondoudou",
-    "description": "Rondoudou est un Pokémon rond et adorable, avec de grands yeux brillants et une voix douce. Il utilise son chant apaisant pour endormir ses adversaires, les berçant avec une mélodie qui les plonge dans un sommeil profond."
+    "description": "Rondoudou est un Pokémon rond et adorable, avec de grands yeux brillants et une voix douce. Il utilise son chant apaisant pour endormir ses adversaires, les berçant dans un sommeil profond."
   },
   {
     "id": 40,
     "name": "Grodoudou",
-    "description": "Évolution de Rondoudou, qui possède une voix puissante capable de charmer des foules. Avec un corps plus grand et une fourrure douce. Ses grands yeux et son apparence moelleuse cachent une incroyable capacité à gonfler son corps pour intimider ses adversaires."
+    "description": "Évolution de Rondoudou, qui possède une voix puissante capable de charmer des foules. Avec un corps plus grand et une fourrure douce."
   },
   {
     "id": 41,
     "name": "Nosferapti",
-    "description": "Un Pokémon nocturne qui se déplace en grands groupes dans les grottes sombres. Il utilise des ultrasons pour se repérer et communique ainsi avec ses congénères. En combat, Nosferapti draine l’énergie de ses adversaires grâce à ses morsures."
+    "description": "Un Pokémon nocturne qui se déplace en grands groupes dans les grottes sombres. Il utilise des ultrasons pour se repérer et communique ainsi avec ses congénères."
   },
   {
     "id": 42,
     "name": "Nosferalto",
-    "description": "Évolution de Nosferapti, il est plus puissant et agile, doté d'ailes plus grandes et de crocs acérés. Il vole avec une grande précision même dans l’obscurité totale, utilisant ses ultrasons pour naviguer et traquer ses proies."
+    "description": "Évolution de Nosferapti, il est plus puissant et agile, doté d'ailes plus grandes et de crocs acérés. Il vole avec une grande précision même dans l’obscurité totale."
   },
   {
     "id": 43,
     "name": "Mystherbe",
-    "description": "Un Pokémon plante capable de créer des illusions pour tromper ses adversaires. Actif surtout la nuit, il utilise ses spores pour se défendre en libérant un doux parfum qui peut endormir ou repousser ses ennemis."
+    "description": "Un Pokémon plante capable de créer des illusions pour tromper ses adversaires. Actif surtout la nuit, il utilise ses spores pour se défendre en libérant un doux parfum qui peut endormir ses ennemis."
   },
   {
     "id": 44,
     "name": "Ortide",
-    "description": "Évolution de Mystherbe, il est connu pour sa rapidité et son agilité, utilisant ses mouvements rapides pour échapper aux prédateurs. Il peut également libérer des spores irritants pour défendre son territoire."
+    "description": "Évolution de Mystherbe, il est connu pour sa rapidité et son agilité, utilisant ses mouvements rapides pour échapper aux prédateurs. Il peut libérer des spores irritants pour se défendre."
   },
   {
     "id": 45,
     "name": "Rafflesia",
-    "description": "L'évolution finale de Mystherbe, il est doté d'une grande fleur rouge ornée de motifs blancs, émettant une forte odeur pour attirer les insectes. Bien qu’il ait une apparence séduisante, il est capable d’absorber l'énergie de ses adversaires en combat."
+    "description": "L'évolution finale de Mystherbe, il est doté d'une grande fleur rouge ornée de motifs blancs, émettant une forte odeur pour attirer les insectes."
   },
   {
     "id": 46,
     "name": "Paras",
-    "description": "Un Pokémon qui peut se fondre dans son environnement pour échapper aux prédateurs. Il est reconnaissable à son corps jaune et aux champignons rouges qui poussent sur son dos. Ces champignons, appelés Parasites, lui permettent d'absorber des nutriments."
+    "description": "Un Pokémon qui est reconnaissable à son corps jaune et aux champignons rouges qui poussent sur son dos. Ces champignons, appelés Parasites, lui permettent d'absorber des nutriments."
   },
   {
     "id": 47,
@@ -237,22 +237,22 @@
   {
     "id": 48,
     "name": "Mimitoss",
-    "description": "Mimitoss est un Pokémon araignée au corps violet et aux grands yeux ronds. Il est capable de tisser des toiles avec les filaments de soie qui émanent de son dos, lui permettant de se camoufler habilement dans son environnement."
+    "description": "Mimitoss est un Pokémon araignée au corps violet et aux grands yeux ronds. Il est capable de tisser des toiles avec les filaments de soie qui émanent de son dos."
   },
   {
     "id": 49,
     "name": "Aéromite",
-    "description": "Un Pokémon qui vole à grande altitude, capable d'éviter les prédateurs. Aéromite se nourrit de nectar et utilise ses capacités de vol pour explorer les fleurs des prairies et des forêts. Sa vitesse et son intelligence en font un chasseur efficace."
+    "description": "Un Pokémon qui vole à grande altitude, capable d'éviter les prédateurs. Sa vitesse et son intelligence en font un chasseur efficace."
   },
   {
     "id": 50,
     "name": "Taupiqueur",
-    "description": "Taupiqueur est un petit Pokémon fouisseur, avec un corps brun et des yeux rouges perçants. Il creuse rapidement sous terre et détecte les vibrations du sol pour localiser ses proies. En combat, il surprend ses adversaires avec sa rapidité et ses puissantes attaquesé."
+    "description": "Taupiqueur est un petit Pokémon fouisseur. Il creuse rapidement sous terre, en combat, il surprend ses adversaires avec sa rapidité et ses puissantes attaques."
   },
   {
     "id": 51,
     "name": "Triopikeur",
-    "description": "Évolution de Taupiqueur, Triopikeur est un Pokémon robuste. Il possède des griffes acérées et un dos orné de piquants. Il utilise sa puissance physique et ses attaques de type Sol pour pour infliger de lourds dégâts à ses adversaires."
+    "description": "Évolution de Taupiqueur,on croirait voir triple. Il utilise sa puissance physique pour infliger de lourds dégâts à ses adversaires."
   },
   {
     "id": 52,
@@ -267,252 +267,252 @@
   {
     "id": 54,
     "name": "Psykokwak",
-    "description": "Un Pokémon aquatique qui souffre de maux de tête fréquents, ce qui lui donne un air désorienté. En raison de cette douleur, Psykokwak peut libérer une puissance psychique cachée, ce qui le rend imprévisible en combat."
+    "description": "Un Pokémon aquatique qui souffre de maux de tête fréquents, ce qui lui donne un air désorienté. Psykokwak peut libérer une puissance psychique cachée, ce qui le rend imprévisible en combat."
   },
   {
     "id": 55,
     "name": "Akwakwak",
-    "description": "Évolution de Psykokwak, Akwakwak est un Pokémon canard de grande taille avec un plumage bleu et un bec proéminent. Bien qu'il ait l'air serein, il est capable de libérer une grande puissance aquatique et psychique lorsqu'il est provoqué."
+    "description": "Évolution de Psykokwak. Bien qu'il ait l'air serein, Akwakwak est capable de libérer une grande puissance aquatique et psychique lorsqu'il est provoqué."
   },
   {
     "id": 56,
     "name": "Férosinge",
-    "description": "Férosinge est un petit Pokémon simiesque avec un pelage brun et une queue en forme de fouet. Énergique et agile, il aime se déplacer rapidement et jouer avec ses congénères. En combat, Férosinge utilise sa force physique pour exécuter des attaques puissantes."
+    "description": "Férosinge est un petit Pokémon simiesque. Énergique et agile, il aime se déplacer rapidement. En combat, Férosinge utilise sa force physique pour exécuter des attaques puissantes."
   },
   {
     "id": 57,
     "name": "Colossinge",
-    "description": "Évolution de Férosinge, connu pour sa force exceptionnelle et son agilité, Férosinge peut exécuter des attaques puissantes et rapides en combat. Fier et protecteur, il défend farouchement son territoire et ses compagnons"
+    "description": "Évolution de Férosinge, connu pour sa force exceptionnelle et son agilité, Férosinge peut exécuter des attaques puissantes et rapides en combat. Il défend farouchement son territoire et ses compagnons"
   },
   {
     "id": 58,
     "name": "Caninos",
-    "description": "Caninos est un petit Pokémon canin connu pour sa loyauté, caractérisé par un pelage orange vif et des motifs de flammes sur son dos. Caninos est capable de générer des flammes chaudes, ce qui lui permet d’utiliser des attaques de type Feu."
+    "description": "Caninos est un petit Pokémon canin connu pour sa loyauté, caractérisé par un pelage orange vif et des motifs de flammes sur son dos. Caninos est capable de générer des flammes."
   },
   {
     "id": 59,
     "name": "Arcanin",
-    "description": "Évolution de Caninos, Arcanin est un Pokémon canin majestueux, avec un pelage orange doré et des rayures noires. Reconnu pour sa vitesse incroyable et son esprit noble, il est souvent considéré comme un symbole de fidélité."
+    "description": "Évolution de Caninos, Arcanin est un Pokémon canin majestueux, avec un pelage orange doré et des rayures noires. Reconnu pour sa vitesse incroyable et son esprit noble, souvent considéré comme symbole de fidélité."
   },
   {
     "id": 60,
     "name": "Ptitard",
-    "description": "Ptitard est un petit Pokémon ressemblant à un têtard, avec un corps bleu et une grande queue en forme de nageoire. Curieux et joueur, il passe la plupart de son temps dans l'eau, où il aime nager et explorer son environnement. ."
+    "description": "Ptitard est un petit Pokémon ressemblant à un têtard, avec un corps bleu et une grande queue en forme de nageoire. Curieux et joueur, il passe la plupart de son temps dans l'eau."
   },
   {
     "id": 61,
     "name": "Têtarte",
-    "description": "Évolution de Ptitard, Tetarte est un Pokémon têtard qui vit dans les rivières et les lacs. Avec son corps bleu et son ventre blanc, il se déplace rapidement dans l'eau. Dotés de grandes oreilles qui lui permettent d'entendre les sons sous l'eau."
+    "description": "Évolution de Ptitard, Tetarte est un Pokémon têtard qui vit dans les rivières et les lacs. Avec son corps bleu et son ventre blanc, il se déplace rapidement dans l'eau."
   },
   {
     "id": 62,
     "name": "Tartard",
-    "description": "Évolution de Têtarte, Tartard est un Pokémon qui a développé une force incroyable. Son corps puissant et musclé lui permet de nager avec aisance dans les eaux profondes. Il n'hésite pas à se battre pour défendre son territoire. Ses bras musclés lui permettent de lancer des attaques redoutables."
+    "description": "Évolution de Têtarte, Tartard est un Pokémon qui a développé une force incroyable. Son corps puissant et musclé lui permet de nager avec aisance dans les eaux profondes."
   },
   {
     "id": 63,
     "name": "Abra",
-    "description": "Abra est un Pokémon de type Psy qui passe la majeure partie de son temps à dormir. Lorsqu'il est éveillé, il utilise ses puissantes capacités psychiques pour se téléporter et échapper à tout danger."
+    "description": "Abra est un Pokémon de type Psy qui passe la majeure partie de son temps à dormir. Lorsqu'il est éveillé, il utilise ses puissantes capacités psychiques pour se téléporter."
   },
   {
     "id": 64,
     "name": "Kadabra",
-    "description": "Évolution d'Abra, Kadabra est un Pokémon de type Psy, connu pour son intelligence et ses puissantes capacités psychiques. Il possède une grande cuillère qu'il utilise pour amplifier ses pouvoirs. Lorsqu'il s'active, Kadabra peut créer des ondes psychiques qui perturbent ses ennemis."
+    "description": "Évolution d'Abra, Kadabra est un Pokémon de type Psy, connu pour son intelligence et ses puissantes capacités psychiques. Il possède une grande cuillère qu'il utilise pour amplifier ses pouvoirs."
   },
   {
     "id": 65,
     "name": "Alakazam",
-    "description": "Évolution finale d'Abra, Alakazam est un Pokémon de type Psy. Ses bras longs et ses cuillères fines sont des extensions de ses puissants pouvoirs psychiques, qu'il utilise pour lancer des attaques dévastatrices. Alakazam est connu pour sa capacité à se téléporter, ce qui lui permet d'échapper à tout danger."
+    "description": "Évolution finale d'Abra, Alakazam est un Pokémon de type Psy. Ses bras longs et ses cuillères fines sont des extensions de ses puissants pouvoirs psychiques."
   },
   {
     "id": 66,
     "name": "Machoc",
-    "description": "Un Pokémon de combat qui s'entraîne sans relâche pour développer sa force physique. Malgré sa petite taille, il possède des muscles puissants qui lui permettent de porter des objets bien plus lourds que lui. Machoc est déterminé à devenir plus fort et rêve de rivaliser avec les Pokémon les plus puissants."
+    "description": "Un Pokémon de combat qui s'entraîne sans relâche pour développer sa force physique. Malgré sa petite taille, il possède des muscles puissants qui lui permettent de porter des objets bien plus lourds que lui."
   },
   {
     "id": 67,
     "name": "Machopeur",
-    "description": "Évolution de Machoc, son entraînement acharné lui a permis de développer des muscles si puissants qu'il doit porter une ceinture pour contenir sa force. Capable de soulever des rochers géants et de lancer des adversaires bien plus grands que lui, Machopeur est toujours à la recherche de défis physiques."
+    "description": "Évolution de Machoc, son entraînement acharné lui a permis de développer des muscles si puissants qu'il doit porter une ceinture pour contenir sa force."
   },
   {
     "id": 68,
     "name": "Mackogneur",
-    "description": "Évolution finale de Machoc, Mackogneur est doté d'une puissance incroyable et de quatre bras musclés, lui permettant d'exécuter des attaques rapides et dévastatrices. Grâce à cette anatomie unique, il peut frapper plusieurs fois en un instant et soulever des poids colossaux avec aisance."
+    "description": "Évolution finale de Machoc, Mackogneur est doté d'une puissance incroyable et de quatre bras musclés, lui permettant d'exécuter des attaques rapides et dévastatrices."
   },
   {
     "id": 69,
     "name": "Chétiflor",
-    "description": "Avec son corps jaune en forme de cloche et sa grande bouche, Chétiflor utilise son parfum sucré pour attirer ses proies avant de les capturer. Agile, Chétiflor peut s’accrocher aux branches grâce à sa tige flexible et se balancer pour éviter les attaques."
+    "description": "Avec son corps jaune en forme de cloche et sa grande bouche, Chétiflor utilise son parfum sucré pour attirer ses proies avant de les capturer."
   },
   {
     "id": 70,
     "name": "Boustiflor",
-    "description": "Évolution de Chétiflor, Boustiflor utilise son puissant liquide acide pour dissoudre tout ce qu'il capture. Bien que sa forme soit plus robuste que celle de Chétiflor, Boustiflor reste agile et peut se balancer pour esquiver les attaques ennemies."
+    "description": "Évolution de Chétiflor, Boustiflor utilise son puissant liquide acide pour dissoudre tout ce qu'il capture."
   },
   {
     "id": 71,
     "name": "Empiflor",
-    "description": "Évolution de Boustiflor, Empiflor se tient souvent immobile, attendant patiemment sa proie avant de l’attraper en un instant. Ce Pokémon est particulièrement redouté dans les forêts pour sa capacité à immobiliser ses cibles avec ses vignes, avant de les attirer vers sa bouche béante."
+    "description": "Évolution de Boustiflor, Empiflor se tient souvent immobile, attendant patiemment sa proie avant de l’attraper en un instant."
   },
   {
     "id": 72,
     "name": "Tentacool",
-    "description": "Tentacool est caractérisé par ses tentacules translucides qui contiennent un venin paralysant qu’il libère pour se défendre ou immobiliser ses proies. Grâce à son corps gélatineux, il peut absorber les impacts des attaques. Mais attention : son contact peut causer des picotements douloureux."
+    "description": "Tentacool est caractérisé par ses tentacules qui contiennent un venin paralysant qu’il libère pour se défendre. Grâce à son corps gélatineux, il peut absorber les impacts des attaques."
   },
   {
     "id": 73,
     "name": "Tentacruel",
-    "description": "Évolution de Tentacool, Tentacruel est doté de nombreux tentacules venimeux, il peut les étendre pour immobiliser et empoisonner ses adversaires. Ses yeux rouges et ses orbes brillants sur la tête lui permettent de communiquer avec ses congénères et de lancer des ondes effrayantes dans l’eau."
+    "description": "Évolution de Tentacool, Tentacruel est doté de nombreux tentacules venimeux, il peut les étendre pour immobiliser et empoisonner ses adversaires."
   },
   {
     "id": 74,
     "name": "Racaillou",
-    "description": "Un Pokémon qui ressemble à un petit rocher avec des bras musclés. Il est souvent trouvé dans les montagnes et se confond facilement avec les pierres environnantes. Racaillou se déplace en roulant et peut parfois surprendre les randonneurs en tombant des pentes abruptes."
+    "description": "Un Pokémon qui ressemble à un petit rocher avec des bras musclés. Il est souvent trouvé dans les montagnes et se confond facilement avec les pierres environnantes."
   },
   {
     "id": 75,
     "name": "Gravalanch",
-    "description": "Évolution de Racaillou, dont le corps massif et rocailleux est recouvert de pointes. Gravalanch se déplace en roulant à toute vitesse, dévalant les collines et provoquant parfois de petites secousses en chemin. Gravalanch utilise son poids pour écraser ses ennemis."
+    "description": "Évolution de Racaillou, dont le corps massif et rocailleux est recouvert de pointes. Gravalanch se déplace en roulant à toute vitesse. Gravalanch utilise son poids pour écraser ses ennemis."
   },
   {
     "id": 76,
     "name": "Grolem",
-    "description": "Évolution finale de Racaillou, réputé pour sa puissance et sa capacité à résister à des attaques redoutables grâce à son corps massif composé de roches solides. Ce Pokémon peut se déplacer à grande vitesse en roulant, et il est capable de provoquer des tremblements de terre lorsqu’il frappe le sol."
+    "description": "Évolution finale de Racaillou, réputé pour sa puissance et sa capacité à résister à des attaques redoutables. Il est capable de provoquer des tremblements de terre lorsqu’il frappe le sol."
   },
   {
     "id": 77,
     "name": "Ponyta",
-    "description": "Ponyta est connu pour sa rapidité et son agilité lui permettant de courir à des vitesses impressionnantes, évitant facilement les obstacles sur son passage. Les flammes qui entourent son corps ne sont pas seulement décoratives, elles sont aussi un moyen de défense, incinérant tout ce qui tente de l'approcher."
+    "description": "Ponyta est connu pour sa rapidité et son agilité lui permettant de courir à des vitesses impressionnantes. Les flammes qui entourent son corps  sont un moyen de défense."
   },
   {
     "id": 78,
     "name": "Galopa",
-    "description": "Évolution de Ponyta, connu pour sa rapidité légendaire. Ses flammes qui jaillissent de sa crinière et de sa queue sont le signe de sa puissance. Il est capable de courir à des vitesses extrêmes, et ses mouvements sont tellement rapides qu'il semble se fondre dans la chaleur de ses propres flammes."
+    "description": "Évolution de Ponyta, connu pour sa rapidité légendaire. Ses flammes qui jaillissent de sa crinière et de sa queue sont le signe de sa puissance."
   },
   {
     "id": 79,
     "name": "Ramoloss",
-    "description": "Un Pokémon aquatique qui est connu pour son comportement paresseux et son esprit rêveur. Son corps rose, flotte calmement à la surface de l’eau. Malgré son apparence lente, Ramoloss possède de puissants pouvoirs psychiques qu’il utilise pour défendre son territoire ou se protéger."
+    "description": "Un Pokémon aquatique qui est connu pour son comportement paresseux et son esprit rêveur. Malgré son apparence, Ramoloss possède de puissants pouvoirs psychiques qu’il utilise pour se protéger."
   },
   {
     "id": 80,
     "name": "Flagadoss",
-    "description": "Évolution de Ramoloss, malgré sa lenteur et son tempérament décontracté, il peut utiliser son esprit pour contrôler son environnement, notamment l'eau, qu’il maîtrise avec une grande aisance lorsqu'il est en danger."
+    "description": "Évolution de Ramoloss, malgré sa lenteur et son tempérament décontracté, il peut utiliser son esprit pour contrôler son environnement, notamment l'eau, qu’il maîtrise lorsqu'il est en danger."
   },
   {
     "id": 81,
     "name": "Magnéti",
-    "description": "Un Pokémon magnétique qui grâce à son champ magnétique puissant,peut se déplacer en flottant dans les airs et attirer des objets métalliques. Magnéti utilise ses pouvoirs électromagnétiques pour attaquer ses ennemis."
+    "description": "Un Pokémon qui grâce à son champ magnétique puissant, peut se déplacer en flottant dans les airs. Magnéti utilise ses pouvoirs électromagnétiques pour attaquer ses ennemis."
   },
   {
     "id": 82,
     "name": "Magnéton",
-    "description": "Évolution de Magnéti, Magnéton possède un champ magnétique extrêmement puissant, capable de perturber les appareils électroniques et de contrôler les métaux autour de lui. Il flotte en utilisant ses champs électromagnétiques et peut émettre des décharges électriques puissantes pour neutraliser ses adversaires."
+    "description": "Évolution de Magnéti, Magnéton possède un champ magnétique extrêmement puissant, il flotte grâce à ses champs électromagnétiques et emet des décharges puissantes pour neutraliser ses adversaires."
   },
   {
     "id": 83,
     "name": "Canarticho",
-    "description": "Agile en vol, il utilise ses ailes pour attaquer ses adversaires avec des coups précis. Canarticho est connu pour son tempérament capricieux et son cri fort, qu’il utilise pour se défendre ou pour signaler sa présence. Il tient constamment dans son aile un oignon japonais, avec lequel il se nourrit et se défend."
+    "description": "Agile en vol, il utilise ses ailes pour attaquer ses adversaires avec des coups précis. Canarticho est connu pour son tempérament capricieux et son cri fort, qu’il utilise pour se défendre."
   },
   {
     "id": 84,
     "name": "Doduo",
-    "description": "Doduo est un Pokémon à deux têtes. Il est extrêmement rapide et utilise sa vitesse pour échapper à ses prédateurs. Il préfère vivre dans des plaines ouvertes, où il peut courir à toute vitesse et se déplacer en groupe pour se protéger."
+    "description": "Doduo est un Pokémon à deux têtes. Il est extrêmement rapide et utilise sa vitesse pour échapper à ses prédateurs. Il préfère se déplacer en groupe pour se protéger."
   },
   {
     "id": 85,
     "name": "Dodrio",
-    "description": "Évolution de Doduo, Dodrio a quant à lui trois têtes, ce qui lui permet de surveiller plusieurs directions en même temps. Il peut courir à une vitesse incroyable, capable de se déplacer à une telle rapidité qu’il semble presque invisible. Attention : Dodrio devient extrêmement agressif s’il se sent menacé."
+    "description": "Évolution de Doduo, Dodrio a quant à lui trois têtes, ce qui lui permet de surveiller plusieurs directions en même temps. Il peut courir à une vitesse incroyable."
   },
   {
     "id": 86,
     "name": "Otaria",
-    "description": "Un Pokémon marin ressemblant à une jeune otarie avec son corps rond et ses nageoires. Otaria est très agile dans l'eau et se déplace avec une grande facilité, utilisant ses nageoires pour se propulser. Otaria est connu pour son comportement joyeux et joueur."
+    "description": "Un Pokémon ressemblant à une jeune otarie avec son corps rond et ses nageoires. Otaria est très agile dans l'eau et se déplace avec une grande facilité, utilisant ses nageoires pour se propulser."
   },
   {
     "id": 87,
     "name": "Lamantine",
-    "description": "Évolution d'Otaria. Grâce à sa grande taille et à sa résistance, Lamantine peut naviguer sur de longues distances dans les océans glacés. Il est connu pour être calme et paisible, mais peut devenir dangereux si une menace arrive."
+    "description": "Évolution d'Otaria. Grâce à sa grande taille et à sa résistance, Lamantine peut naviguer sur de longues distances dans les océans glacés. Il peut devenir dangereux si une menace arrive."
   },
   {
     "id": 88,
     "name": "Tadmorv",
-    "description": "Un Pokémon qui est constitué d'une masse visqueuse de boue et de déchets.cTadmorv dégage une odeur nauséabonde et peut entraîner des malaises si l'on reste trop près de lui. En se déplaçant, il laisse une traînée de substances toxiques derrière lui."
+    "description": "Un Pokémon qui est constitué d'une masse visqueuse de boue et de déchets. Tadmorv dégage une odeur nauséabonde et peut entraîner des malaises si l'on reste trop près de lui."
   },
   {
     "id": 89,
     "name": "Grotadmorv",
-    "description": "Évolution de Tadmorv, Grotadmorv est composé d'une masse visqueuse de boue encore plus grande et plus toxique. Sa taille imposante lui permet de dégager une puissante aura de poison qui se répand autour de lui. Malgré sa lenteur, il est capable de produire des attaques empoisonnées extrêmement puissantes"
+    "description": "Évolution de Tadmorv, Grotadmorv est composé d'une masse visqueuse de boue. Sa taille imposante lui permet de dégager une puissante aura de poison qui se répand autour de lui."
   },
   {
     "id": 90,
     "name": "Kokiyas",
-    "description": "Un Pokémon aquatique ressemblant à une coquille avec une perle précieuse à l’intérieur. Il est connu pour sa capacité à se cacher dans sa coquille pour se protéger des dangers. Kokiyas peut souvent être trouvé dans des eaux profondes et tranquilles, où il se déplace lentement."
+    "description": "Un Pokémon aquatique ressemblant à une coquille avec une perle précieuse à l’intérieur. Il est connu pour sa capacité à se cacher dans sa coquille pour se protéger des dangers."
   },
   {
     "id": 91,
     "name": "Crustabri",
-    "description": "Évolution de Kokiyas, avec sa grande coquille dure, Crustabri peut se protéger des attaques ennemies et utiliser des mouvements glacés pour combattre. Il vit dans des eaux froides et utilise la glace pour créer des attaques puissantes qui peuvent geler instantanément tout ce qu'il touche."
+    "description": "Évolution de Kokiyas, Crustabri vit dans des eaux froides et utilise la glace pour créer des attaques puissantes qui peuvent geler instantanément tout ce qu'il touche."
   },
   {
     "id": 92,
     "name": "Fantominus",
-    "description": "Un Pokémon fantomatique flottant dans l’air avec une silhouette floue et des yeux brillants. Fantominus peut causer de l’effroi en apparaissant soudainement, et il utilise ses pouvoirs pour absorber l’énergie vitale de ses proies."
+    "description": "Un Pokémon fantomatique flottant dans l’air avec une silhouette floue et des yeux brillants. Fantominus peut causer de l’effroi en apparaissant soudainement."
   },
   {
     "id": 93,
     "name": "Spectrum",
-    "description": "Évolution de Fantominus, Spectrum prend une forme plus terrifiante. Il est capable d’invoquer des malédictions et de manipuler des énergies spectrales, créant des illusions pour effrayer ses ennemis. il se nourrit de l’énergie vitale de ses victimes, les rendant faibles avant de les attaquer."
+    "description": "Évolution de Fantominus, Spectrum prend une forme plus terrifiante. Il est de manipuler des énergies spectrales, créant des illusions pour effrayer ses ennemis."
   },
   {
     "id": 94,
     "name": "Ectoplasma",
-    "description": "Évolution de Spectrum, son corps translucide et sinistre peut se déplacer à une vitesse incroyable, rendant difficile pour ses ennemis de le suivre. Il possède des pouvoirs psychiques et peut projeter des attaques spectrales dévastatrices. Il se nourrit de la peur et de l'énergie vitale de ses adversaires,."
+    "description": "Évolution de Spectrum, Ectoplasma possède des pouvoirs psychiques et peut projeter des attaques spectrales dévastatrices. Il se nourrit de la peur et de l'énergie vitale de ses adversaires."
   },
   {
     "id": 95,
     "name": "Onix",
-    "description": "Un Pokémon de type Roche ressemblant à un énorme serpent composé de pierres massives. Sa grande taille et sa dureté en font un Pokémon extrêmement résistant, capable de creuser des tunnels profonds à travers la terre avec ses puissants mouvements. Devient très agressif si son territoire est menacé."
+    "description": "Un Pokémon de type Roche ressemblant à un énorme serpent composé de pierres massives. Sa grande taille et sa dureté en font un Pokémon extrêmement résistant."
   },
   {
     "id": 96,
     "name": "Soporifik",
-    "description": "Soporifik est connu pour ses capacités hypnotiques puissantes, qu’il utilise pour endormir ses ennemis avec une simple incantation. Son apparence apathique cache une grande force mentale, capable de manipuler les rêves et de projeter des illusions."
+    "description": "Soporifik est connu pour ses capacités hypnotiques puissantes, qu’il utilise pour endormir ses ennemis avec une simple incantation. Il est capable de manipuler les rêves et de projeter des illusions."
   },
   {
     "id": 97,
     "name": "Hypnomade",
-    "description": "Évolution de Soporifik, il est reconnu pour sa maîtrise des pouvoirs psychiques, notamment l'hypnose, qu'il utilise pour contrôler les autres à sa volonté. Il est capable de plonger ses adversaires dans un sommeil profond ou de manipuler leur esprit pour les amener à accomplir ses désirs."
+    "description": "Évolution de Soporifik, il est reconnu pour sa maîtrise des pouvoirs psychiques, notamment l'hypnose, qu'il utilise pour contrôler les autres à sa volonté."
   },
   {
     "id": 98,
     "name": "Krabby",
-    "description": "Un Pokémon ressemblant à un petit crabe avec une pince gigantesque. Il vit principalement dans les zones côtières et les fonds marins peu profonds. Bien qu’il soit de petite taille, sa pince peut être extrêmement puissante et lui permet de se défendre contre ses prédateurs ou de chasser sa nourriture."
+    "description": "Un Pokémon ressemblant à un petit crabe avec une pince gigantesque. Bien qu’il soit de petite taille, sa pince peut être extrêmement puissante et lui permet de se défendre contre ses prédateurs."
   },
   {
     "id": 99,
     "name": "Krabboss",
-    "description": "Évolution de Krabby, Krabboss est beaucoup plus grand et plus imposant que son évolution précédente, avec une pince extrêmement puissante capable de broyer presque tout ce qu'il attrape. Il vit dans les eaux profondes, où il chasse avec sa grande pince et protège son territoire avec une grande férocité."
+    "description": "Évolution de Krabby, Krabboss est beaucoup plus grand et plus imposant que son évolution précédente, avec une pince extrêmement puissante capable de broyer presque tout ce qu'il attrape."
   },
   {
     "id": 100,
     "name": "Voltorbe",
-    "description": "Un Pokémon électrique ressemblant à une sphère avec un visage marqué d'une expression menaçante. Il est connu pour sa capacité à générer et libérer de l'électricité de manière soudaine et violente. Lorsqu'il est menacé, il peut exploser en libérant toute l'énergie qu'il contient."
+    "description": "Un Pokémon électrique ressemblant à une sphère marqué d'une expression menaçante. Il est connu pour sa capacité à générer et libérer de l'électricité de manière soudaine et violente."
   },
   {
     "id": 101,
     "name": "Électrode",
-    "description": "Évolution de Voltorbe, ressemblant à une sphère encore plus grande, avec un visage souriant, mais il reste tout aussi explosif que son prédécesseur. Électrode est capable de stocker une énorme quantité d’électricité à l'intérieur de son corps, qui peut libérer de manière dévastatrice."
+    "description": "Évolution de Voltorbe, ressemblant à une sphère encore plus grande, avec un visage souriant, mais il reste tout aussi explosif que son prédécesseur."
   },
   {
     "id": 102,
     "name": "Noeunoeuf",
-    "description": "Un Pokémon ressemblant à un oeuf. Noeunoeuf possède une coquille durcie, mais fragile, qui contient une énergie psychique unique. Noeunoeuf se nourrit de la lumière et peut utiliser ses pouvoirs psychiques pour se défendre ou aider à la croissance des plantes."
+    "description": "Un Pokémon ressemblant à un oeuf. Noeunoeuf possède une coquille durcie, mais fragile, qui contient une énergie psychique unique."
   },
   {
     "id": 103,
     "name": "Noadkoko",
-    "description": "Évolution de Noeunoeuf, Noadkoko ressemble à un grand arbre exotique avec plusieurs têtes d'œuf suspendues à ses branches. Chaque œuf contient une grande énergie, qu'il utilise pour se défendre et attaquer. Grâce à ses pouvoirs psychiques, il peut créer des tempêtes de sable ou des éclats lumineux."
+    "description": "Évolution de Noeunoeuf, Noadkoko ressemble à un grand arbre exotique avec plusieurs têtes d'œuf suspendues à ses branches. Chaque œuf contient une grande énergie, qu'il utilise pour se défendre. "
   },
   {
     "id": 104,
@@ -522,22 +522,22 @@
   {
     "id": 105,
     "name": "Ossatueur",
-    "description": "Évolution d'Osselait, Ossatueur utilise son os avec une grande habileté, frappant ses adversaires avec une puissance dévastatrice. Ossatueur erre dans des endroits reculés, où il protège son territoire avec férocité."
+    "description": "Évolution d'Osselait, Ossatueur utilise son os avec une grande habileté, frappant ses adversaires avec une puissance dévastatrice. Ossatueur protège son territoire avec férocité."
   },
   {
     "id": 106,
     "name": "Kicklee",
-    "description": "Un Pokémon de combat expert en arts martiaux, et son style de combat repose sur une grande souplesse et une vitesse impressionnante. Kicklee peut effectuer des coups de pied à grande vitesse et changer de position en un clin d'œil, rendant ses attaques difficiles à anticiper."
+    "description": "Un Pokémon de combat expert en arts martiaux, et son style de combat repose sur une grande souplesse. Kicklee peut effectuer des coups de pied à grande vitesse et changer de position en un clin d'œil."
   },
   {
     "id": 107,
     "name": "Tygnon",
-    "description": "Évolution de Kicklee, Tygnon possède un corps agile et une grande maîtrise de son équilibre, ce qui lui permet d'exécuter des attaques de pied et de poing avec une grande efficacité. Ce Pokémon est souvent vu dans des environnements où il peut s'entraîner et perfectionner ses techniques de combat."
+    "description": "Évolution de Kicklee, Tygnon possède un corps agile et une grande maîtrise de son équilibre, ce qui lui permet d'exécuter des attaques de pied et de poing avec une grande efficacité."
   },
   {
     "id": 108,
     "name": "Excelangue",
-    "description": "Un Pokémon connu pour sa langue incroyablement longue et extensible, qu'il utilise pour attraper sa nourriture ou saisir des objets à distance.  Son habileté à lancer sa langue sur de grandes distances fait de lui un excellent chasseur, capable d'attraper ses proies avec une précision étonnante."
+    "description": "Un Pokémon connu pour sa langue incroyablement longue et extensible, qu'il utilise pour attraper ses proies avec une précision étonnante."
   },
   {
     "id": 109,
@@ -552,52 +552,52 @@
   {
     "id": 111,
     "name": "Rhinocorne",
-    "description": "Un Pokémon robuste, Rhinocorne utilise sa corne pour se défendre contre ses ennemis. Bien que d'apparence lente et lourde, Rhinocorne est extrêmement puissant et peut charger à grande vitesse lorsqu'il se sent menacé."
+    "description": "Un Pokémon robuste, Rhinocorne utilise sa corne pour se défendre. Bien que d'apparence lente et lourde, Rhinocorne est extrêmement puissant et peut charger à grande vitesse lorsqu'il se sent menacé."
   },
   {
     "id": 112,
     "name": "Rhinoféros",
-    "description": "Évolution de Rhinocorne, imposant et puissant, Rhinoféros possède une corne gigantesque sur le front, qu’il utilise pour percer les obstacles et affronter ses adversaires. Sa peau est extrêmement résistante et sert de bouclier contre les attaques."
+    "description": "Évolution de Rhinocorne, imposant et puissant, Rhinoféros possède une corne gigantesque sur le front, qu’il utilise pour percer les obstacles et affronter ses adversaires."
   },
   {
     "id": 113,
     "name": "Leveinard",
-    "description": "Un Pokémon à la fois doux et protecteur, Leveinard porte une grande poche sous son ventre, dans laquelle il garde des œufs qui contiennent des substances curatives. Il est souvent vu dans des lieux paisibles, tels que les prairies ou les hôpitaux, où il s'occupe des Pokémon blessés."
+    "description": "Un Pokémon à la fois doux et protecteur, Leveinard porte une grande poche sous son ventre, dans laquelle il garde des œufs qui contiennent des substances curatives."
   },
   {
     "id": 114,
     "name": "Saquedeneu",
-    "description": "Un Pokémon composé de lianes. Les lianes de Saquedeneu se brisent facilement lorsqu'on les attrape. Cela ne lui fait pas mal et lui permet simplement de s'échapper rapidement. Les lianes cassées repoussent le lendemain."
+    "description": "Un Pokémon composé de lianes. Les lianes de Saquedeneu se brisent facilement lorsqu'on les attrape. Cela ne lui fait pas mal et lui permet simplement de s'échapper rapidement. Les lianes cassées repoussent."
   },
   {
     "id": 115,
     "name": "Kangourex",
-    "description": "Un Pokémon ressemblant à un Kangourou, Kangourex utilise ses puissantes pattes arrière pour donner des coups de pied violents, tout en étant capable de sauter sur de longues distances. Il est très agile malgré son apparence massive, et il est capable de se défendre contre toute menace en un instant."
+    "description": "Un Pokémon ressemblant à un Kangourou, Kangourex utilise ses puissantes pattes arrière pour donner des coups de pied violents, tout en étant capable de sauter sur de longues distances."
   },
   {
     "id": 116,
     "name": "Hypotrempe",
-    "description": "Un Pokémon aquatique ressemblant à un Hyppocampe. Hypotrempe est capable de se faufiler dans l'eau avec une grande rapidité grâce à ses longues nageoires latérales. Ce Pokémon est plutôt timide et évite les confrontations, préférant se cacher sous l'eau."
+    "description": "Un Pokémon aquatique ressemblant à un Hyppocampe. Hypotrempe est capable de se faufiler dans l'eau avec une grande rapidité grâce à ses longues nageoires latérales."
   },
   {
     "id": 117,
     "name": "Hypocéan",
-    "description": "Évolution finale d'Hypotrempe, Hypocéan utilise ses nageoires pour se propulser avec une grande agilité, et il peut atteindre des vitesses impressionnantes sous l'eau. Il est également connu pour sa capacité à créer de puissantes vagues lorsqu'il se sent menacé"
+    "description": "Évolution finale d'Hypotrempe, Hypocéan utilise ses nageoires pour se propulser avec une vitesse impressionnante sous l'eau. Il a la capacité à créer de puissantes vagues lorsqu'il se sent menacé"
   },
   {
     "id": 118,
     "name": "Poissirène",
-    "description": "Un Pokémon aquatique connu pour sa beauté et sa grâce dans l'eau. Il est également capable d'attirer ses proies grâce à ses mouvements hypnotiques et gracieux. Il est un symbole de la beauté de la vie aquatique et aime la solitude."
+    "description": "Un Pokémon aquatique connu pour sa beauté et sa grâce dans l'eau. Il est également capable d'attirer ses proies grâce à ses mouvements hypnotiques et gracieux."
   },
   {
     "id": 119,
     "name": "Poissoroy",
-    "description": "Évolution finale de Poissirène, qui est plus imposant et plus puissant. Poissoroy ressemble a des voiles plus développées, ce qui lui permet de se déplacer rapidement et avec aisance dans l'eau. Il est également connu pour sa capacité à maîtriser de puissantes attaques aquatiques."
+    "description": "Évolution finale de Poissirène, qui est plus imposant et plus puissant. Poissoroy ressemble a des voiles plus développées, ce qui lui permet de se déplacer rapidement et avec aisance dans l'eau."
   },
   {
     "id": 120,
     "name": "Stari",
-    "description": "Stari ressemble à une étoile de mer à cinq bras. Le centre de son corps est recouvert d'un disque doré entourant un joyau rouge, appelé le coeur. Un Pokémon étoile qui peut se régénérer facilement si son coeur est intact"
+    "description": "Stari ressemble à une étoile de mer à cinq bras. Le centre de son corps est recouvert d'un disque doré entourant un joyau rouge, appelé le coeur. Stari peut se régénérer facilement si son coeur est intact"
   },
   {
     "id": 121,
@@ -607,37 +607,37 @@
   {
     "id": 122,
     "name": "M. Mime",
-    "description": "M. Mime ressemble à un humanoïde avec des traits de clown, portant un costume de mime avec des gants et des chaussures rouges. M. Mime est capable de créer des barrières psychiques invisibles, qu'il utilise pour se protéger et protéger les autres.."
+    "description": "M. Mime ressemble à un humanoïde avec des traits de clown. M. Mime est capable de créer des barrières psychiques invisibles, qu'il utilise pour se protéger et protéger les autres."
   },
   {
     "id": 123,
     "name": "Insécateur",
-    "description": "Un Pokémon insecte redouté pour sa rapidité et sa précision."
+    "description": "Insécateur est incroyablement rapide. Sa vitesse fulgurante améliore l’efficacité des deux lames situées sur ses avant-bras."
   },
   {
     "id": 124,
     "name": "Lippoutou",
-    "description": "Un Pokémon qui charme et hypnotise ses ennemis par sa danse."
+    "description": "Lipoutou est un Pokémon mystérieux au corps violet et aux longs cheveux blonds. Il utilise une danse envoûtante pour hypnotiser ses adversaires, les plongeant dans un état de confusion."
   },
   {
     "id": 125,
     "name": "Élektek",
-    "description": "Un Pokémon électrique connu pour sa vitesse et son agilité."
+    "description": "Sa tête est marquée de deux antennes qui lui permettant de capter et de libérer des décharges puissantes. Agile et imprévisible, Elektek est capable de lancer des attaques électriques intenses."
   },
   {
     "id": 126,
     "name": "Magmar",
-    "description": "Un Pokémon de feu capable de créer des flammes de haute température."
+    "description": "Magmar a une apparence rappelant un volcan en fusion. Il dégage une chaleur intense. Sa peau est couverte de flammes, et il peut projeter des gerbes de feu."
   },
   {
     "id": 127,
     "name": "Scarabrute",
-    "description": "Un Pokémon insecte avec une carapace dure, il est difficile à combattre."
+    "description": "Scarabrute est un Pokémon robuste et puissant. Son corps brun et imposant est doté de deux gigantesques pinces sur la tête, capables de broyer ses ennemis avec une force incroyable."
   },
   {
     "id": 128,
     "name": "Tauros",
-    "description": "Un puissant Pokémon qui peut charger avec une grande force."
+    "description": "Tauros est un Pokémon puissant et sauvage, rappelant un taureau avec trois queues et une crinière touffue. Connu pour son tempérament impétueux, il charge avec une énergie redoutable."
   },
   {
     "id": 129,
@@ -647,111 +647,111 @@
   {
     "id": 130,
     "name": "Léviator",
-    "description": "L'évolution de Magicarpe, un Pokémon légendaire avec une grande force."
+    "description": "Léviator est l’évolution de Magicarpe, un Pokémon immense et terrifiant, à l’apparence de dragon marin. Une fois déchaîné, il devient presque impossible à contrôler."
   },
   {
     "id": 131,
     "name": "Lokhlass",
-    "description": "Un Pokémon aquatique majestueux, connu pour sa beauté et sa tranquillité."
+    "description": "Un Pokémon aquatique majestueux, connu pour sa tranquillité. Lokhlass traverse les mers en transportant les gens sur son dos. Il semblerait qu’il chante un air agréable quand il est de bonne humeur."
   },
   {
     "id": 132,
     "name": "Métamorph",
-    "description": "Un Pokémon unique qui peut se transformer en n'importe quel autre Pokémon."
+    "description": "Méta-Morph est un Pokémon unique, capable de copier l’apparence et les attaques de tout autre Pokémon qu’il rencontre. Avec sa forme amorphe et fluide, il peut changer d’apparence en un instant."
   },
   {
     "id": 133,
     "name": "Évoli",
-    "description": "Un Pokémon dont l'évolution dépend de son environnement et de son entraînement."
+    "description": "Evoli est un petit Pokémon ressemblant à un renard, avec un pelage doux et une queue touffue. Ce Pokémon est célèbre pour sa capacité unique à évoluer en fonction de son environnement."
   },
   {
     "id": 134,
     "name": "Aquali",
-    "description": "Une des évolutions d'Évoli, maîtrisant le pouvoir de l'eau."
+    "description": "Aquali est l'une des évolutions d'Evoli, un Pokémon élégant aux traits rappelant ceux d’un renard aquatique. Aquali est capable de nager à des vitesses impressionnantes."
   },
   {
     "id": 135,
     "name": "Voltali",
-    "description": "Une autre évolution d'Évoli, connu pour sa rapidité et son attaque électrique."
+    "description": "Voltali est l'une des évolutions d'Evoli. Il est capable de générer de l'électricité à partir de son corps et de libérer des décharges électriques puissantes en combat."
   },
   {
     "id": 136,
     "name": "Pyroli",
-    "description": "L'évolution feu d'Évoli, réputée pour sa force et son charisme."
+    "description": "Pyroli est l’une des évolutions d’Evoli, un Pokémon au pelage orange et aux flammes qui dansent sur sa queue. Il dégage une chaleur intense et est capable de créer des attaques de feu puissantes."
   },
   {
     "id": 137,
     "name": "Porygon",
-    "description": "Un Pokémon virtuel capable de s'adapter à de nombreux environnements."
+    "description": "Porygon est un Pokémon artificiel capable de s'adapter à de nombreux environnements."
   },
   {
     "id": 138,
     "name": "Amonita",
-    "description": "Un Pokémon fossile qui a survécu à l'extinction, représentant la résilience."
+    "description": "Amonita est un Pokémon fossile, inspiré des ammonites, ces créatures marines préhistoriques. Il possède une coquille spiralée et un corps mou qui se cache à l'intérieur pour se protéger."
   },
   {
     "id": 139,
     "name": "Amonistar",
-    "description": "L'évolution d'Amonita, un prédateur aquatique redoutable."
+    "description": "Amonistar est l'évolution d'Amonita, un Pokémon fossile possédant une grande coquille spiralée et des tentacules capables de capturer des proies. Sa coquille robuste lui sert de protection."
   },
   {
     "id": 140,
     "name": "Kabuto",
-    "description": "Un Pokémon fossile capable de se cacher dans les rochers."
+    "description": "Un Pokémon fossile avec une carapace dure et une forme arrondie, il ressemble à un petit crabe ou un insecte primitif. Ses quatre paires de pattes lui permettent de se déplacer rapidement dans l'eau."
   },
   {
     "id": 141,
     "name": "Kabutops",
-    "description": "L'évolution finale, connu pour ses lames tranchantes et sa rapidité."
+    "description": "Kabutops est l'évolution de Kabuto, un Pokémon fossile redoutable. Son corps élancé est équipé de griffes tranchantes et de pinces qui lui permettent de trancher et d'attraper ses proies avec précision."
   },
   {
     "id": 142,
     "name": "Ptéra",
-    "description": "Un Pokémon vol qui domine le ciel avec ses ailes puissantes."
+    "description": "Ptera est un Pokémon qui ressemble à un ptérosaure, ses dents acérées font de lui un prédateur redoutable. Ptera est très agile en vol, capable de se déplacer rapidement et de surprendre ses ennemis."
   },
   {
     "id": 143,
     "name": "Ronflex",
-    "description": "Un Pokémon énorme, connu pour sa force et sa capacité à dormir longtemps."
+    "description": "Ronflex est un Pokémon massif, au corps rond et paresseux, souvent vu en train de dormir profondément. Il possède une grande taille et une force impressionnante, mais préfère passer ses journées à se reposer."
   },
   {
     "id": 144,
     "name": "Artikodin",
-    "description": "Un Pokémon légendaire de type glace, représentant la puissance et la majesté."
+    "description": "Artikodin est l'un des trois Pokémon légendaires des régions de Kanto, connu pour son apparence majestueuse. Il est capable de geler tout sur son passage."
   },
   {
     "id": 145,
     "name": "Électhor",
-    "description": "Un Pokémon légendaire électrique, redouté pour sa vitesse et sa puissance."
+    "description": "Électhor est un Pokémon légendaire, un oiseau électrique aux ailes puissantes et au plumage jaune éclatant. Il est capable de générer des décharges électriques d'une intensité incroyable."
   },
   {
     "id": 146,
     "name": "Sulfura",
-    "description": "Un Pokémon légendaire de type feu, symbolisant la destruction et la renaissance."
+    "description": "Sulfura est un Pokémon légendaire représentant le feu, avec l'apparence d'un grand oiseau de flammes. Son plumage incandescent brûle d'une intensité extrême, et peut déclencher des tempêtes de flammes."
   },
   {
     "id": 147,
     "name": "Minidraco",
-    "description": "Un petit dragon, symbole de force et de potentiel."
+    "description": "Minidraco est un petit Pokémon de type Dragon, souvent considéré comme l'une des premières étapes dans l'évolution des Pokémon de type Dragon."
   },
   {
     "id": 148,
     "name": "Draco",
-    "description": "L'évolution de Minidraco, connu pour sa grande puissance."
+    "description": "Draco est un Pokémon de type Dragon, plus évolué que Minidraco, avec une silhouette élancée et un corps long et puissant. Il possède de petites ailes, lui permettant de planer."
   },
   {
     "id": 149,
     "name": "Dracolosse",
-    "description": "L'évolution finale, un dragon légendaire qui survole les cieux."
+    "description": "Dracolosse est l'évolution finale de Minidraco, un Pokémon majestueux et redoutable. Avec ses grandes ailes et sa puissance impressionnante, il incarne la force des dragons légendaires."
   },
   {
     "id": 150,
     "name": "Mewtwo",
-    "description": "Un Pokémon légendaire créé par des expériences scientifiques, connu pour son immense pouvoir."
+    "description": "Mewtwo est un Pokémon légendaire créé par génie scientifique à partir de l'ADN de Mew, Mewtwo est doté de pouvoirs psychiques, capables de contrôler l'esprit et de manipuler des objets à distance."
   },
   {
     "id": 151,
     "name": "Mew",
-    "description": "Un Pokémon mythique, capable de maîtriser toutes les techniques, symbole de mystère."
+    "description": "Un Pokémon légendaire, Mew est doté de pouvoirs psychiques exceptionnels, lui permettant de se déplacer à grande vitesse et de manipuler les objets à volonté."
   }
 ]

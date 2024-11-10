@@ -137,7 +137,7 @@ h3 {
   }
 }
 
-@media screen and (max-width: 875px) {
+@media screen and (max-width: 900px) {
   .detail-container {
     flex-direction: column;
   }
