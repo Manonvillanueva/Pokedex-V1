@@ -14,7 +14,7 @@ const Detail = ({ dataPoke }) => {
   const navigate = useNavigate();
 
   // Récupère les paramètres de l'URL gràce à useParam();
-  // Ici nn récupère l'ID qui est affiché dans l'URL
+  // Ici on récupère l'ID qui est affiché dans l'URL
   const { id } = useParams();
 
   // Cherche le Pokémon avec l'id du Pokémon qui correspond à l'id passé dans l'URL (converti en nombre)

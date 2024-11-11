@@ -7,7 +7,7 @@ const Accueil = ({ dataPoke }) => {
   // État pour suivre l'index du Pokémon actuellement affiché
   // Initialisation de currentIndex entre 0 et 150 pour afficher un Pokémon au hasard
   const [currentIndex, setCurrentIndex] = useState(
-    Math.floor(Math.random() * 150)
+    Math.floor(Math.random() * 151)
   );
 
   // Accéder à l'élément du DOM .effect
